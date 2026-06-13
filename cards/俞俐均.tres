@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://cw00btlw470wp"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_o67ji"]
+
+[resource]
+script = ExtResource("1_o67ji")
+card_name = "俞俐均"
+rarity = "SR"
+description = "围棋甜心..."
+ai_rank = "preaz_1d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

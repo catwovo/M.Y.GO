@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://d1efknq4a3rin"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_jgf3w"]
+
+[resource]
+script = ExtResource("1_jgf3w")
+card_name = "古力"
+rarity = "SSR"
+description = "大刀阔斧：力大无比，擅长强行屠龙..."
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

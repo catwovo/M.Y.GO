@@ -1,0 +1,207 @@
+2026-06-05 15:45:40+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-05 15:45:40+0800: GTP Engine starting...
+2026-06-05 15:45:40+0800: KataGo v1.16.5
+2026-06-05 15:45:40+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-05 15:45:40+0800: Using 2 CPU thread(s) for search
+2026-06-05 15:45:41+0800: nnRandSeed0 = 11638218884392241664
+2026-06-05 15:45:41+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 15:45:41+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-05 15:45:41+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 15:45:41+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 15:45:41+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 15:45:41+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 15:45:42+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-05 15:45:42+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-05 15:45:42+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 15:45:42+0800: Loaded model E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz
+2026-06-05 15:45:42+0800: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 15:45:42+0800: GTP ready, beginning main protocol loop
+2026-06-05 15:45:42+0800: Controller: boardsize 9
+2026-06-05 15:45:42+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 15:45:42+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 15:45:42+0800: Cleaned up old neural net and bot
+2026-06-05 15:45:42+0800: nnRandSeed0 = 17789335693459651079
+2026-06-05 15:45:42+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 15:45:42+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-05 15:45:43+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 15:45:43+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 15:45:43+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 15:45:43+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 15:45:44+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-05 15:45:44+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: komi 7.5
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: clear_board
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: boardsize 9
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: komi 3.5
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: clear_board
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:45:44+0800: Controller: lz-analyze b 10
+2026-06-05 15:45:44+0800: =
+2026-06-05 15:45:44+0800: Controller: stop
+2026-06-05 15:45:44+0800: = 
+2026-06-05 15:46:00+0800: Controller: play black F6
+2026-06-05 15:46:00+0800: = 
+2026-06-05 15:46:00+0800: Controller: kata-set-param maxPlayouts 1
+2026-06-05 15:46:00+0800: = 
+2026-06-05 15:46:00+0800: Controller: kata-set-param maxVisits 1
+2026-06-05 15:46:00+0800: = 
+2026-06-05 15:46:00+0800: Controller: kata-set-param chosenMoveTemperature 5.0
+2026-06-05 15:46:00+0800: = 
+2026-06-05 15:46:00+0800: Controller: genmove white
+2026-06-05 15:46:01+0800: MoveNum: 1 HASH: 1D94FF0067800B65D520C15EBA480341
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . @ . X1. . .
+ 5 . . . . . . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 0.156
+Root visits: 1
+New playouts: 1
+NN rows: 1
+NN batches: 1
+NN avg batch size: 1
+PlayoutDoublingAdvantage: 0.25
+PV: D6
+Tree:
+: T -98.40c W -95.88c S  -2.52c ( -3.7 L  -3.3) N       1  --  D6
+---White(^)---
+
+2026-06-05 15:46:01+0800: = D6
+2026-06-05 15:46:03+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 15:46:03+0800: = 
+2026-06-05 15:46:03+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 15:46:03+0800: = 
+2026-06-05 15:46:03+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 15:46:03+0800: = 
+2026-06-05 15:46:03+0800: Controller: lz-analyze b 10
+2026-06-05 15:46:03+0800: =
+2026-06-05 15:46:03+0800: Controller: stop
+2026-06-05 15:46:03+0800: = 
+2026-06-05 15:46:27+0800: Controller: play black E4
+2026-06-05 15:46:27+0800: = 
+2026-06-05 15:46:28+0800: Controller: kata-set-param maxPlayouts 1
+2026-06-05 15:46:28+0800: = 
+2026-06-05 15:46:28+0800: Controller: kata-set-param maxVisits 1
+2026-06-05 15:46:28+0800: = 
+2026-06-05 15:46:28+0800: Controller: kata-set-param chosenMoveTemperature 5.0
+2026-06-05 15:46:28+0800: = 
+2026-06-05 15:46:28+0800: Controller: genmove white
+2026-06-05 15:46:28+0800: MoveNum: 3 HASH: 3AECC27DD7D8EE6C4799BEC3B7269A8E
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . O2. X1. . .
+ 5 . . @ . . . . . .
+ 4 . . . . X3. . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 0.156
+Root visits: 1
+New playouts: 1
+NN rows: 1
+NN batches: 1
+NN avg batch size: 1
+PlayoutDoublingAdvantage: 0.25
+PV: C5
+Tree:
+: T -100.27c W -97.82c S  -2.45c ( -3.7 L  -3.5) N       1  --  C5
+---White(^)---
+
+2026-06-05 15:46:28+0800: = C5
+2026-06-05 15:46:31+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 15:46:31+0800: = 
+2026-06-05 15:46:31+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 15:46:31+0800: = 
+2026-06-05 15:46:31+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 15:46:31+0800: = 
+2026-06-05 15:46:31+0800: Controller: lz-analyze b 10
+2026-06-05 15:46:31+0800: =
+2026-06-05 15:46:31+0800: Controller: stop
+2026-06-05 15:46:31+0800: = 
+2026-06-05 15:46:47+0800: Controller: play black D3
+2026-06-05 15:46:47+0800: = 
+2026-06-05 15:46:48+0800: Controller: kata-set-param maxPlayouts 1
+2026-06-05 15:46:48+0800: = 
+2026-06-05 15:46:48+0800: Controller: kata-set-param maxVisits 1
+2026-06-05 15:46:48+0800: = 
+2026-06-05 15:46:48+0800: Controller: kata-set-param chosenMoveTemperature 5.0
+2026-06-05 15:46:48+0800: = 
+2026-06-05 15:46:48+0800: Controller: genmove white
+2026-06-05 15:46:48+0800: MoveNum: 5 HASH: D08EDD9DC9F014B988CFC0C518F83EAA
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . O . X . . .
+ 5 . . O2. . . . . .
+ 4 . . . . X1. . @ .
+ 3 . . . X3. . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 0.156
+Root visits: 1
+New playouts: 1
+NN rows: 1
+NN batches: 1
+NN avg batch size: 1
+PlayoutDoublingAdvantage: 0.25
+PV: G4
+Tree:
+: T -96.89c W -94.69c S  -2.20c ( -3.4 L  -2.8) N       1  --  G4
+---White(^)---
+
+2026-06-05 15:46:48+0800: = H4
+2026-06-05 15:46:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 15:46:50+0800: = 
+2026-06-05 15:46:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 15:46:50+0800: = 
+2026-06-05 15:46:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 15:46:50+0800: = 
+2026-06-05 15:46:50+0800: Controller: lz-analyze b 10
+2026-06-05 15:46:50+0800: =
+2026-06-05 15:46:50+0800: Controller: stop
+2026-06-05 15:46:50+0800: = 

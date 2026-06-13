@@ -1,0 +1,197 @@
+[gd_scene format=3 uid="uid://rjdtcbfh6vjp"]
+
+[ext_resource type="Script" uid="uid://dlddixhnagkti" path="res://ModeSelection.gd" id="1_wef6y"]
+[ext_resource type="Texture2D" uid="uid://bop6dfqj4qsil" path="res://sucai/chengshi/2.png" id="2_iynnj"]
+[ext_resource type="Texture2D" uid="uid://b4x0uyr5sgevw" path="res://sucai/快速游戏.png" id="3_iynnj"]
+[ext_resource type="Texture2D" uid="uid://c8c1y572cwiv4" path="res://sucai/世界大赛.png" id="4_l782h"]
+[ext_resource type="Texture2D" uid="uid://j47kvrjtk1dg" path="res://sucai/卡牌.png" id="5_yrymw"]
+[ext_resource type="Texture2D" uid="uid://emk5bammswsy" path="res://sucai/返回.png" id="6_3e2kj"]
+[ext_resource type="Texture2D" uid="uid://ckfbn5yqpt668" path="res://sucai/设置.png" id="7_3e2kj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uc2ct"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a3mbt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1g8dc"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j1tft"]
+bg_color = Color(0.20152658, 0.20152658, 0.20152658, 0.8627451)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3e2kj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yrymw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xdvy6"]
+
+[node name="ModeSelection" type="Control" unique_id=1179723014]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wef6y")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=27214206]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_iynnj")
+expand_mode = 1
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=990269810]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 88.0
+offset_right = 1922.0
+offset_bottom = 184.0
+color = Color(0, 0, 0, 0.28235295)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=701247295]
+layout_mode = 0
+offset_left = -7.0
+offset_top = 237.0
+offset_right = 1922.0
+offset_bottom = 906.0
+color = Color(0, 0, 0, 0.28235295)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1549672508]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -715.0
+offset_top = -485.0
+offset_right = 715.0
+offset_bottom = 369.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=332456495]
+layout_mode = 2
+theme_override_constants/separation = 90
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=384758338]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_font_sizes/font_size = 60
+text = "HUD_SELECT"
+horizontal_alignment = 1
+
+[node name="ModeCards" type="HBoxContainer" parent="CenterContainer/VBoxContainer" unique_id=1061658830]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="QuickPlayBtn" type="Button" parent="CenterContainer/VBoxContainer/ModeCards" unique_id=1950516858]
+custom_minimum_size = Vector2(460, 600)
+layout_mode = 2
+theme_override_constants/h_separation = 4
+theme_override_constants/line_spacing = 2
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxFlat_uc2ct")
+icon = ExtResource("3_iynnj")
+flat = true
+icon_alignment = 1
+expand_icon = true
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/ModeCards/QuickPlayBtn" unique_id=1869108658]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -119.5
+offset_top = -34.5
+offset_right = 119.5
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8862745)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 50
+text = "HUD_GMAE"
+
+[node name="TournamentBtn" type="Button" parent="CenterContainer/VBoxContainer/ModeCards" unique_id=533514677]
+custom_minimum_size = Vector2(460, 600)
+layout_mode = 2
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxFlat_a3mbt")
+icon = ExtResource("4_l782h")
+flat = true
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/ModeCards/TournamentBtn" unique_id=1368481070]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -151.0
+offset_top = -34.5
+offset_right = 151.0
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8862745)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_1g8dc")
+text = "HUD_GMAE2"
+
+[node name="Button" type="Button" parent="CenterContainer/VBoxContainer/ModeCards" unique_id=1430991293]
+custom_minimum_size = Vector2(420, 600)
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_j1tft")
+text = "？？？"
+
+[node name="DeckBuilderBtn" type="Button" parent="." unique_id=792212006]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 0
+offset_left = 1597.0
+offset_top = 96.0
+offset_right = 1677.0
+offset_bottom = 176.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_3e2kj")
+icon = ExtResource("5_yrymw")
+flat = true
+icon_alignment = 1
+vertical_icon_alignment = 0
+expand_icon = true
+
+[node name="BackButton" type="Button" parent="." unique_id=1716633469]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 0
+offset_left = 1832.0
+offset_top = 96.0
+offset_right = 1912.0
+offset_bottom = 176.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_yrymw")
+icon = ExtResource("6_3e2kj")
+flat = true
+expand_icon = true
+
+[node name="SettingsButton" type="Button" parent="." unique_id=821698003]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 0
+offset_left = 1713.0
+offset_top = 96.0
+offset_right = 1793.0
+offset_bottom = 176.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_xdvy6")
+icon = ExtResource("7_3e2kj")
+flat = true
+expand_icon = true

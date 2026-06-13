@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://xwg74v6puedv"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_nk7fk"]
+
+[resource]
+script = ExtResource("1_nk7fk")
+card_name = "於之莹"
+ai_rank = "preaz_3d"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

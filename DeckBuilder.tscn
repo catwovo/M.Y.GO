@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://c4jueo5t8plfp"]
+
+[ext_resource type="Script" uid="uid://4abl76caukka" path="res://deck_builder.gd" id="1_i550k"]
+[ext_resource type="Texture2D" uid="uid://dd72gkgwrfsu6" path="res://sucai/chengshi/6.png" id="2_4nlhe"]
+[ext_resource type="Texture2D" uid="uid://emk5bammswsy" path="res://sucai/返回.png" id="3_5442m"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_421y8"]
+
+[node name="DeckBuilder" type="Control" unique_id=448419467]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i550k")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=22171912]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_4nlhe")
+expand_mode = 1
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1980123617]
+layout_mode = 0
+offset_top = 174.0
+offset_right = 1921.0
+offset_bottom = 1036.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.32156864)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=830893977]
+layout_mode = 0
+offset_right = 1921.0
+offset_bottom = 1036.0
+color = Color(0, 0, 0, 0.36862746)
+
+[node name="DeckEdit" type="VBoxContainer" parent="." unique_id=1491183588]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 157.0
+offset_top = 138.0
+offset_right = -166.0
+offset_bottom = -151.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 25
+
+[node name="DeckStatusLabel" type="Label" parent="DeckEdit" unique_id=2101818456]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "当前卡组大小：0/20"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="DeckEdit" unique_id=1360465912]
+custom_minimum_size = Vector2(1630, 800)
+layout_mode = 2
+
+[node name="CardGrid" type="GridContainer" parent="DeckEdit/ScrollContainer" unique_id=664189507]
+custom_minimum_size = Vector2(1630, 800)
+layout_mode = 2
+columns = 7
+
+[node name="TipsLabel" type="Label" parent="." unique_id=1876711970]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 1040.0
+offset_right = 228.0
+offset_bottom = 1080.0
+theme_override_font_sizes/font_size = 20
+
+[node name="BackButton" type="Button" parent="." unique_id=1185035395]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 0
+offset_left = 1832.0
+offset_top = 96.0
+offset_right = 1912.0
+offset_bottom = 176.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_421y8")
+icon = ExtResource("3_5442m")
+flat = true
+expand_icon = true

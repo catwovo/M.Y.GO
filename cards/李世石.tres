@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dukh6vj7yh1y2"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_u2td1"]
+
+[resource]
+script = ExtResource("1_u2td1")
+card_name = "李世石"
+rarity = "SSR"
+description = "擅长绝地混战，局部杀力无穷..."
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

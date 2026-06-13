@@ -1,0 +1,70 @@
+2026-06-07 16:51:50+0800: Running with following config:
+allowResignation = true
+analysisOutputOwnership = true
+humanSLProfile = preaz_9d
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-07 16:51:50+0800: GTP Engine starting...
+2026-06-07 16:51:50+0800: KataGo v1.16.5
+2026-06-07 16:51:50+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-07 16:51:50+0800: Using 2 CPU thread(s) for search
+2026-06-07 16:51:50+0800: nnRandSeed0 = 6025685083674142932
+2026-06-07 16:51:50+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-07 16:51:50+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-07 16:51:51+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-07 16:51:51+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-07 16:51:51+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-07 16:51:51+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-07 16:51:52+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-07 16:51:52+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-07 16:51:52+0800: --------------
+2026-06-07 16:51:52+0800: WARNING: Config had unused keys! You may have a typo, an option you specified is being unused from E:/开发/new/围棋/bin/katago.cfg
+2026-06-07 16:51:52+0800: WARNING: Unused key 'analysisOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-07 16:51:52+0800: WARNING: Unused key 'lzAnalyzeOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-07 16:51:52+0800: --------------
+2026-06-07 16:51:52+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-07 16:51:52+0800: Loaded model E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz
+2026-06-07 16:51:52+0800: Model name: b18c384nbt-humanv0
+2026-06-07 16:51:52+0800: GTP ready, beginning main protocol loop
+2026-06-07 16:51:52+0800: Controller: boardsize 9
+2026-06-07 16:51:52+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-07 16:51:52+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-07 16:51:52+0800: Cleaned up old neural net and bot
+2026-06-07 16:51:52+0800: nnRandSeed0 = 5297744128892813078
+2026-06-07 16:51:52+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-07 16:51:52+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-07 16:51:53+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-07 16:51:53+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-07 16:51:53+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-07 16:51:53+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-07 16:51:54+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-07 16:51:54+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-07 16:51:54+0800: = 
+2026-06-07 16:51:54+0800: Controller: komi 7.5
+2026-06-07 16:51:54+0800: = 
+2026-06-07 16:51:54+0800: Controller: clear_board
+2026-06-07 16:51:54+0800: = 
+2026-06-07 16:51:54+0800: Controller: boardsize 9
+2026-06-07 16:51:54+0800: = 
+2026-06-07 16:51:54+0800: Controller: komi 3.5
+2026-06-07 16:51:54+0800: = 
+2026-06-07 16:51:54+0800: Controller: clear_board
+2026-06-07 16:51:54+0800: = 

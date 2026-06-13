@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b0bjfsymh4leg"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_8kguu"]
+
+[resource]
+script = ExtResource("1_8kguu")
+card_name = "刘仲甫"
+rarity = "UR"
+ai_rank = "preaz_3d"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

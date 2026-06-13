@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bi3n8g1lbai8b"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_drwgs"]
+
+[resource]
+script = ExtResource("1_drwgs")
+card_name = "刘昌赫"
+rarity = "SSR"
+ai_rank = "preaz_5d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

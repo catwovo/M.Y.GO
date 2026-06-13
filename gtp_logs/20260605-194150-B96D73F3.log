@@ -1,0 +1,735 @@
+2026-06-05 19:41:50+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-05 19:41:50+0800: GTP Engine starting...
+2026-06-05 19:41:50+0800: KataGo v1.16.5
+2026-06-05 19:41:50+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-05 19:41:50+0800: Using 2 CPU thread(s) for search
+2026-06-05 19:41:50+0800: nnRandSeed0 = 11046909338676365367
+2026-06-05 19:41:50+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 19:41:50+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-05 19:41:51+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 19:41:51+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 19:41:51+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 19:41:51+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 19:41:51+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-05 19:41:51+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-05 19:41:51+0800: --------------
+2026-06-05 19:41:51+0800: WARNING: Config had unused keys! You may have a typo, an option you specified is being unused from E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 19:41:51+0800: WARNING: Unused key 'lzAnalyzeOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 19:41:51+0800: --------------
+2026-06-05 19:41:51+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 19:41:51+0800: Loaded model E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz
+2026-06-05 19:41:51+0800: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 19:41:51+0800: GTP ready, beginning main protocol loop
+2026-06-05 19:41:51+0800: Controller: boardsize 9
+2026-06-05 19:41:51+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 19:41:51+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 19:41:51+0800: Cleaned up old neural net and bot
+2026-06-05 19:41:51+0800: nnRandSeed0 = 16785942242063367165
+2026-06-05 19:41:51+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 19:41:51+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-05 19:41:52+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 19:41:52+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 19:41:52+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 19:41:52+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 19:41:53+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-05 19:41:53+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: komi 7.5
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: clear_board
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: boardsize 9
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: komi 3.5
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: clear_board
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:41:53+0800: Controller: lz-analyze b 10
+2026-06-05 19:41:53+0800: =
+2026-06-05 19:41:53+0800: Controller: stop
+2026-06-05 19:41:53+0800: = 
+2026-06-05 19:42:00+0800: Controller: stop
+2026-06-05 19:42:00+0800: = 
+2026-06-05 19:42:00+0800: Controller: play black F6
+2026-06-05 19:42:00+0800: = 
+2026-06-05 19:42:01+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:01+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:01+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:01+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:01+0800: =
+2026-06-05 19:42:01+0800: Controller: stop
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:01+0800: Controller: stop
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:01+0800: Controller: play white F4
+2026-06-05 19:42:01+0800: = 
+2026-06-05 19:42:15+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:15+0800: = 
+2026-06-05 19:42:15+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:15+0800: = 
+2026-06-05 19:42:15+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:15+0800: = 
+2026-06-05 19:42:15+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:15+0800: =
+2026-06-05 19:42:16+0800: Controller: stop
+2026-06-05 19:42:16+0800: = 
+2026-06-05 19:42:17+0800: Controller: stop
+2026-06-05 19:42:17+0800: = 
+2026-06-05 19:42:17+0800: Controller: play black D5
+2026-06-05 19:42:17+0800: = 
+2026-06-05 19:42:18+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:18+0800: = 
+2026-06-05 19:42:18+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:18+0800: = 
+2026-06-05 19:42:18+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:18+0800: = 
+2026-06-05 19:42:18+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:18+0800: =
+2026-06-05 19:42:19+0800: Controller: stop
+2026-06-05 19:42:19+0800: = 
+2026-06-05 19:42:19+0800: Controller: stop
+2026-06-05 19:42:19+0800: = 
+2026-06-05 19:42:19+0800: Controller: play white D3
+2026-06-05 19:42:19+0800: = 
+2026-06-05 19:42:20+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:20+0800: = 
+2026-06-05 19:42:20+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:20+0800: = 
+2026-06-05 19:42:20+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:20+0800: = 
+2026-06-05 19:42:20+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:20+0800: =
+2026-06-05 19:42:21+0800: Controller: stop
+2026-06-05 19:42:21+0800: = 
+2026-06-05 19:42:22+0800: Controller: stop
+2026-06-05 19:42:22+0800: = 
+2026-06-05 19:42:22+0800: Controller: play black C3
+2026-06-05 19:42:22+0800: = 
+2026-06-05 19:42:23+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:23+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:23+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:23+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:23+0800: =
+2026-06-05 19:42:23+0800: Controller: stop
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:23+0800: Controller: stop
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:23+0800: Controller: play white C4
+2026-06-05 19:42:23+0800: = 
+2026-06-05 19:42:25+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:25+0800: = 
+2026-06-05 19:42:25+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:25+0800: = 
+2026-06-05 19:42:25+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:25+0800: = 
+2026-06-05 19:42:25+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:25+0800: =
+2026-06-05 19:42:26+0800: Controller: stop
+2026-06-05 19:42:26+0800: = 
+2026-06-05 19:42:27+0800: Controller: stop
+2026-06-05 19:42:27+0800: = 
+2026-06-05 19:42:27+0800: Controller: play black E3
+2026-06-05 19:42:27+0800: = 
+2026-06-05 19:42:27+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:27+0800: = 
+2026-06-05 19:42:27+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:27+0800: = 
+2026-06-05 19:42:27+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:27+0800: = 
+2026-06-05 19:42:27+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:27+0800: =
+2026-06-05 19:42:28+0800: Controller: stop
+2026-06-05 19:42:28+0800: = 
+2026-06-05 19:42:28+0800: Controller: stop
+2026-06-05 19:42:28+0800: = 
+2026-06-05 19:42:28+0800: Controller: play white C2
+2026-06-05 19:42:28+0800: = 
+2026-06-05 19:42:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:45+0800: = 
+2026-06-05 19:42:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:45+0800: = 
+2026-06-05 19:42:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:45+0800: = 
+2026-06-05 19:42:45+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:45+0800: =
+2026-06-05 19:42:46+0800: Controller: stop
+2026-06-05 19:42:46+0800: = 
+2026-06-05 19:42:46+0800: Controller: stop
+2026-06-05 19:42:46+0800: = 
+2026-06-05 19:42:48+0800: Controller: stop
+2026-06-05 19:42:48+0800: = 
+2026-06-05 19:42:48+0800: Controller: play black E4
+2026-06-05 19:42:48+0800: = 
+2026-06-05 19:42:48+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:48+0800: = 
+2026-06-05 19:42:48+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:48+0800: = 
+2026-06-05 19:42:48+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:48+0800: = 
+2026-06-05 19:42:48+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:48+0800: =
+2026-06-05 19:42:49+0800: Controller: stop
+2026-06-05 19:42:49+0800: = 
+2026-06-05 19:42:49+0800: Controller: stop
+2026-06-05 19:42:49+0800: = 
+2026-06-05 19:42:49+0800: Controller: play white G7
+2026-06-05 19:42:49+0800: = 
+2026-06-05 19:42:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:50+0800: = 
+2026-06-05 19:42:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:50+0800: = 
+2026-06-05 19:42:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:50+0800: = 
+2026-06-05 19:42:50+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:50+0800: =
+2026-06-05 19:42:51+0800: Controller: stop
+2026-06-05 19:42:51+0800: = 
+2026-06-05 19:42:52+0800: Controller: stop
+2026-06-05 19:42:52+0800: = 
+2026-06-05 19:42:52+0800: Controller: play black G6
+2026-06-05 19:42:52+0800: = 
+2026-06-05 19:42:53+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:53+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:53+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:53+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:53+0800: =
+2026-06-05 19:42:53+0800: Controller: stop
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:53+0800: Controller: stop
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:53+0800: Controller: play white F7
+2026-06-05 19:42:53+0800: = 
+2026-06-05 19:42:54+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:54+0800: = 
+2026-06-05 19:42:54+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:54+0800: = 
+2026-06-05 19:42:54+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:54+0800: = 
+2026-06-05 19:42:54+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:54+0800: =
+2026-06-05 19:42:55+0800: Controller: stop
+2026-06-05 19:42:55+0800: = 
+2026-06-05 19:42:56+0800: Controller: stop
+2026-06-05 19:42:56+0800: = 
+2026-06-05 19:42:56+0800: Controller: play black B3
+2026-06-05 19:42:56+0800: = 
+2026-06-05 19:42:56+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:42:56+0800: = 
+2026-06-05 19:42:56+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:42:56+0800: = 
+2026-06-05 19:42:56+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:56+0800: = 
+2026-06-05 19:42:56+0800: Controller: lz-analyze w 10
+2026-06-05 19:42:56+0800: =
+2026-06-05 19:42:57+0800: Controller: stop
+2026-06-05 19:42:57+0800: = 
+2026-06-05 19:42:57+0800: Controller: stop
+2026-06-05 19:42:57+0800: = 
+2026-06-05 19:42:57+0800: Controller: play white E2
+2026-06-05 19:42:57+0800: = 
+2026-06-05 19:42:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:42:58+0800: = 
+2026-06-05 19:42:58+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:42:58+0800: = 
+2026-06-05 19:42:58+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:42:58+0800: = 
+2026-06-05 19:42:58+0800: Controller: lz-analyze b 10
+2026-06-05 19:42:58+0800: =
+2026-06-05 19:42:59+0800: Controller: stop
+2026-06-05 19:42:59+0800: = 
+2026-06-05 19:43:00+0800: Controller: stop
+2026-06-05 19:43:00+0800: = 
+2026-06-05 19:43:00+0800: Controller: play black F3
+2026-06-05 19:43:00+0800: = 
+2026-06-05 19:43:00+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:00+0800: = 
+2026-06-05 19:43:00+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:00+0800: = 
+2026-06-05 19:43:00+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:00+0800: = 
+2026-06-05 19:43:00+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:00+0800: =
+2026-06-05 19:43:01+0800: Controller: stop
+2026-06-05 19:43:01+0800: = 
+2026-06-05 19:43:01+0800: Controller: stop
+2026-06-05 19:43:01+0800: = 
+2026-06-05 19:43:01+0800: Controller: play white B4
+2026-06-05 19:43:01+0800: = 
+2026-06-05 19:43:02+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:02+0800: = 
+2026-06-05 19:43:02+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:02+0800: = 
+2026-06-05 19:43:02+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:02+0800: = 
+2026-06-05 19:43:02+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:02+0800: =
+2026-06-05 19:43:03+0800: Controller: stop
+2026-06-05 19:43:03+0800: = 
+2026-06-05 19:43:03+0800: Controller: stop
+2026-06-05 19:43:03+0800: = 
+2026-06-05 19:43:03+0800: Controller: play black D4
+2026-06-05 19:43:03+0800: = 
+2026-06-05 19:43:04+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:04+0800: = 
+2026-06-05 19:43:04+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:04+0800: = 
+2026-06-05 19:43:04+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:04+0800: = 
+2026-06-05 19:43:04+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:04+0800: =
+2026-06-05 19:43:05+0800: Controller: stop
+2026-06-05 19:43:05+0800: = 
+2026-06-05 19:43:05+0800: Controller: stop
+2026-06-05 19:43:05+0800: = 
+2026-06-05 19:43:05+0800: Controller: play white D7
+2026-06-05 19:43:05+0800: = 
+2026-06-05 19:43:05+0800: Controller: stop
+2026-06-05 19:43:05+0800: = 
+2026-06-05 19:43:06+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:06+0800: = 
+2026-06-05 19:43:06+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:06+0800: = 
+2026-06-05 19:43:06+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:06+0800: = 
+2026-06-05 19:43:06+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:06+0800: =
+2026-06-05 19:43:06+0800: Controller: stop
+2026-06-05 19:43:06+0800: = 
+2026-06-05 19:43:08+0800: Controller: stop
+2026-06-05 19:43:08+0800: = 
+2026-06-05 19:43:08+0800: Controller: play black B5
+2026-06-05 19:43:08+0800: = 
+2026-06-05 19:43:09+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:09+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:09+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:09+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:09+0800: =
+2026-06-05 19:43:09+0800: Controller: stop
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:09+0800: Controller: stop
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:09+0800: Controller: play white D2
+2026-06-05 19:43:09+0800: = 
+2026-06-05 19:43:36+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:36+0800: = 
+2026-06-05 19:43:36+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:36+0800: = 
+2026-06-05 19:43:36+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:36+0800: = 
+2026-06-05 19:43:36+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:36+0800: =
+2026-06-05 19:43:36+0800: Controller: stop
+2026-06-05 19:43:36+0800: = 
+2026-06-05 19:43:37+0800: Controller: stop
+2026-06-05 19:43:37+0800: = 
+2026-06-05 19:43:37+0800: Controller: play black B2
+2026-06-05 19:43:37+0800: = 
+2026-06-05 19:43:38+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:38+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:38+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:38+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:38+0800: =
+2026-06-05 19:43:38+0800: Controller: stop
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:38+0800: Controller: stop
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:38+0800: Controller: play white H6
+2026-06-05 19:43:38+0800: = 
+2026-06-05 19:43:40+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:40+0800: = 
+2026-06-05 19:43:40+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:40+0800: = 
+2026-06-05 19:43:40+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:40+0800: = 
+2026-06-05 19:43:40+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:40+0800: =
+2026-06-05 19:43:40+0800: Controller: stop
+2026-06-05 19:43:40+0800: = 
+2026-06-05 19:43:42+0800: Controller: stop
+2026-06-05 19:43:42+0800: = 
+2026-06-05 19:43:42+0800: Controller: play black H5
+2026-06-05 19:43:42+0800: = 
+2026-06-05 19:43:43+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:43+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:43+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:43+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:43+0800: =
+2026-06-05 19:43:43+0800: Controller: stop
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:43+0800: Controller: stop
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:43+0800: Controller: play white G3
+2026-06-05 19:43:43+0800: = 
+2026-06-05 19:43:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:45+0800: = 
+2026-06-05 19:43:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:45+0800: = 
+2026-06-05 19:43:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:45+0800: = 
+2026-06-05 19:43:45+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:45+0800: =
+2026-06-05 19:43:45+0800: Controller: stop
+2026-06-05 19:43:45+0800: = 
+2026-06-05 19:43:47+0800: Controller: stop
+2026-06-05 19:43:47+0800: = 
+2026-06-05 19:43:47+0800: Controller: play black H7
+2026-06-05 19:43:47+0800: = 
+2026-06-05 19:43:48+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:48+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:48+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:48+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:48+0800: =
+2026-06-05 19:43:48+0800: Controller: stop
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:48+0800: Controller: stop
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:48+0800: Controller: play white E6
+2026-06-05 19:43:48+0800: = 
+2026-06-05 19:43:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:50+0800: = 
+2026-06-05 19:43:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:50+0800: = 
+2026-06-05 19:43:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:50+0800: = 
+2026-06-05 19:43:50+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:50+0800: =
+2026-06-05 19:43:50+0800: Controller: stop
+2026-06-05 19:43:50+0800: = 
+2026-06-05 19:43:51+0800: Controller: stop
+2026-06-05 19:43:51+0800: = 
+2026-06-05 19:43:51+0800: Controller: play black G4
+2026-06-05 19:43:51+0800: = 
+2026-06-05 19:43:51+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:51+0800: = 
+2026-06-05 19:43:51+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:51+0800: = 
+2026-06-05 19:43:51+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:51+0800: = 
+2026-06-05 19:43:51+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:51+0800: =
+2026-06-05 19:43:52+0800: Controller: stop
+2026-06-05 19:43:52+0800: = 
+2026-06-05 19:43:52+0800: Controller: stop
+2026-06-05 19:43:52+0800: = 
+2026-06-05 19:43:52+0800: Controller: play white H8
+2026-06-05 19:43:52+0800: = 
+2026-06-05 19:43:54+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:54+0800: = 
+2026-06-05 19:43:54+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:54+0800: = 
+2026-06-05 19:43:54+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:54+0800: = 
+2026-06-05 19:43:54+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:54+0800: =
+2026-06-05 19:43:54+0800: Controller: stop
+2026-06-05 19:43:54+0800: = 
+2026-06-05 19:43:55+0800: Controller: stop
+2026-06-05 19:43:55+0800: = 
+2026-06-05 19:43:55+0800: Controller: play black J6
+2026-06-05 19:43:55+0800: = 
+2026-06-05 19:43:56+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: lz-analyze w 10
+2026-06-05 19:43:56+0800: =
+2026-06-05 19:43:56+0800: Controller: stop
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: stop
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: play white B7
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:56+0800: Controller: stop
+2026-06-05 19:43:56+0800: = 
+2026-06-05 19:43:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:43:58+0800: = 
+2026-06-05 19:43:58+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:43:58+0800: = 
+2026-06-05 19:43:58+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:43:58+0800: = 
+2026-06-05 19:43:58+0800: Controller: lz-analyze b 10
+2026-06-05 19:43:58+0800: =
+2026-06-05 19:43:58+0800: Controller: stop
+2026-06-05 19:43:58+0800: = 
+2026-06-05 19:43:58+0800: Controller: stop
+2026-06-05 19:43:58+0800: = 
+2026-06-05 19:44:00+0800: Controller: stop
+2026-06-05 19:44:00+0800: = 
+2026-06-05 19:44:00+0800: Controller: play black C6
+2026-06-05 19:44:00+0800: = 
+2026-06-05 19:44:01+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:01+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:01+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:01+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:01+0800: =
+2026-06-05 19:44:01+0800: Controller: stop
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:01+0800: Controller: stop
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:01+0800: Controller: play white C7
+2026-06-05 19:44:01+0800: = 
+2026-06-05 19:44:03+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:03+0800: = 
+2026-06-05 19:44:03+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:03+0800: = 
+2026-06-05 19:44:03+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:03+0800: = 
+2026-06-05 19:44:03+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:03+0800: =
+2026-06-05 19:44:03+0800: Controller: stop
+2026-06-05 19:44:03+0800: = 
+2026-06-05 19:44:04+0800: Controller: stop
+2026-06-05 19:44:04+0800: = 
+2026-06-05 19:44:04+0800: Controller: play black A6
+2026-06-05 19:44:04+0800: = 
+2026-06-05 19:44:05+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:05+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:05+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:05+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:05+0800: =
+2026-06-05 19:44:05+0800: Controller: stop
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:05+0800: Controller: stop
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:05+0800: Controller: play white B6
+2026-06-05 19:44:05+0800: = 
+2026-06-05 19:44:07+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:07+0800: = 
+2026-06-05 19:44:07+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:07+0800: = 
+2026-06-05 19:44:07+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:07+0800: = 
+2026-06-05 19:44:07+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:07+0800: =
+2026-06-05 19:44:08+0800: Controller: stop
+2026-06-05 19:44:08+0800: = 
+2026-06-05 19:44:08+0800: Controller: stop
+2026-06-05 19:44:08+0800: = 
+2026-06-05 19:44:09+0800: Controller: stop
+2026-06-05 19:44:09+0800: = 
+2026-06-05 19:44:09+0800: Controller: play black J8
+2026-06-05 19:44:09+0800: = 
+2026-06-05 19:44:09+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:09+0800: = 
+2026-06-05 19:44:09+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:09+0800: = 
+2026-06-05 19:44:09+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:09+0800: = 
+2026-06-05 19:44:09+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:09+0800: =
+2026-06-05 19:44:10+0800: Controller: stop
+2026-06-05 19:44:10+0800: = 
+2026-06-05 19:44:10+0800: Controller: stop
+2026-06-05 19:44:10+0800: = 
+2026-06-05 19:44:10+0800: Controller: play white F5
+2026-06-05 19:44:10+0800: = 
+2026-06-05 19:44:12+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:12+0800: = 
+2026-06-05 19:44:12+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:12+0800: = 
+2026-06-05 19:44:12+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:12+0800: = 
+2026-06-05 19:44:12+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:12+0800: =
+2026-06-05 19:44:12+0800: Controller: stop
+2026-06-05 19:44:12+0800: = 
+2026-06-05 19:44:13+0800: Controller: stop
+2026-06-05 19:44:13+0800: = 
+2026-06-05 19:44:13+0800: Controller: play black G8
+2026-06-05 19:44:13+0800: = 
+2026-06-05 19:44:14+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:14+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:14+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:14+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:14+0800: =
+2026-06-05 19:44:14+0800: Controller: stop
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:14+0800: Controller: stop
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:14+0800: Controller: play white F8
+2026-06-05 19:44:14+0800: = 
+2026-06-05 19:44:17+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:17+0800: = 
+2026-06-05 19:44:17+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:17+0800: = 
+2026-06-05 19:44:17+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:17+0800: = 
+2026-06-05 19:44:17+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:17+0800: =
+2026-06-05 19:44:18+0800: Controller: stop
+2026-06-05 19:44:18+0800: = 
+2026-06-05 19:44:18+0800: Controller: stop
+2026-06-05 19:44:18+0800: = 
+2026-06-05 19:44:18+0800: Controller: play black E5
+2026-06-05 19:44:18+0800: = 
+2026-06-05 19:44:19+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:19+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:19+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:19+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:19+0800: =
+2026-06-05 19:44:19+0800: Controller: stop
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:19+0800: Controller: stop
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:19+0800: Controller: play white D6
+2026-06-05 19:44:19+0800: = 
+2026-06-05 19:44:21+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:21+0800: = 
+2026-06-05 19:44:21+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:21+0800: = 
+2026-06-05 19:44:21+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:21+0800: = 
+2026-06-05 19:44:21+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:21+0800: =
+2026-06-05 19:44:21+0800: Controller: stop
+2026-06-05 19:44:21+0800: = 
+2026-06-05 19:44:22+0800: Controller: stop
+2026-06-05 19:44:22+0800: = 
+2026-06-05 19:44:22+0800: Controller: play black C5
+2026-06-05 19:44:22+0800: = 
+2026-06-05 19:44:23+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:23+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:23+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:23+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:23+0800: =
+2026-06-05 19:44:23+0800: Controller: stop
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:23+0800: Controller: stop
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:23+0800: Controller: play white A5
+2026-06-05 19:44:23+0800: = 
+2026-06-05 19:44:44+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:44+0800: = 
+2026-06-05 19:44:44+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:44+0800: = 
+2026-06-05 19:44:44+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:44+0800: = 
+2026-06-05 19:44:44+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:44+0800: =
+2026-06-05 19:44:45+0800: Controller: stop
+2026-06-05 19:44:45+0800: = 
+2026-06-05 19:44:46+0800: Controller: stop
+2026-06-05 19:44:46+0800: = 
+2026-06-05 19:44:46+0800: Controller: play black A4
+2026-06-05 19:44:46+0800: = 
+2026-06-05 19:44:47+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:47+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:47+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:47+0800: Controller: lz-analyze w 10
+2026-06-05 19:44:47+0800: =
+2026-06-05 19:44:47+0800: Controller: stop
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:47+0800: Controller: stop
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:47+0800: Controller: play white H9
+2026-06-05 19:44:47+0800: = 
+2026-06-05 19:44:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 19:44:58+0800: = 
+2026-06-05 19:44:58+0800: Controller: kata-set-param maxVisits 100
+2026-06-05 19:44:58+0800: = 
+2026-06-05 19:44:58+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:44:58+0800: = 
+2026-06-05 19:44:58+0800: Controller: lz-analyze b 10
+2026-06-05 19:44:58+0800: =
+2026-06-05 19:44:58+0800: Controller: stop
+2026-06-05 19:44:58+0800: = 
+2026-06-05 19:45:01+0800: Controller: stop
+2026-06-05 19:45:01+0800: = 
+2026-06-05 19:45:01+0800: Controller: play black A7
+2026-06-05 19:45:01+0800: = 
+2026-06-05 19:45:02+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:02+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:02+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:02+0800: Controller: lz-analyze w 10
+2026-06-05 19:45:02+0800: =
+2026-06-05 19:45:02+0800: Controller: stop
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:02+0800: Controller: stop
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:02+0800: Controller: play white F2
+2026-06-05 19:45:02+0800: = 
+2026-06-05 19:45:06+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 19:45:06+0800: = 
+2026-06-05 19:45:06+0800: Controller: kata-set-param maxVisits 15
+2026-06-05 19:45:06+0800: = 
+2026-06-05 19:45:06+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-05 19:45:06+0800: = 
+2026-06-05 19:45:06+0800: Controller: lz-analyze w 10
+2026-06-05 19:45:06+0800: =
+2026-06-05 19:45:07+0800: Controller: stop
+2026-06-05 19:45:07+0800: = 
+2026-06-05 19:45:07+0800: Controller: stop
+2026-06-05 19:45:07+0800: = 
+2026-06-05 19:45:07+0800: Controller: play white H2
+2026-06-05 19:45:07+0800: = 

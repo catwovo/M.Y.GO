@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://d1h3v8ac277qy"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_7q2uj"]
+
+[resource]
+script = ExtResource("1_7q2uj")
+card_name = "芈昱廷"
+rarity = "SR"
+ai_rank = "preaz_5d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

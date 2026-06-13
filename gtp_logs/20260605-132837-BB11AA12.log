@@ -1,0 +1,567 @@
+2026-06-05 13:28:37+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-05 13:28:37+0800: GTP Engine starting...
+2026-06-05 13:28:37+0800: KataGo v1.16.5
+2026-06-05 13:28:37+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-05 13:28:37+0800: Using 2 CPU thread(s) for search
+2026-06-05 13:28:37+0800: nnRandSeed0 = 2326534095548283439
+2026-06-05 13:28:37+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 13:28:37+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-05 13:28:38+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 13:28:38+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 13:28:38+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 13:28:38+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 13:28:39+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-05 13:28:39+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-05 13:28:39+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 13:28:39+0800: Loaded model E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz
+2026-06-05 13:28:39+0800: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 13:28:39+0800: GTP ready, beginning main protocol loop
+2026-06-05 13:28:39+0800: Controller: boardsize 9
+2026-06-05 13:28:39+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 13:28:39+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 13:28:39+0800: Cleaned up old neural net and bot
+2026-06-05 13:28:39+0800: nnRandSeed0 = 10127381077577222973
+2026-06-05 13:28:39+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 13:28:39+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-05 13:28:40+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 13:28:40+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 13:28:40+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 13:28:40+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 13:28:41+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-05 13:28:41+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: komi 7.5
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: clear_board
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: boardsize 9
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: komi 7.5
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: clear_board
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:28:41+0800: Controller: lz-analyze b 10
+2026-06-05 13:28:41+0800: =
+2026-06-05 13:28:41+0800: Controller: stop
+2026-06-05 13:28:41+0800: = 
+2026-06-05 13:29:01+0800: Controller: play black D5
+2026-06-05 13:29:01+0800: = 
+2026-06-05 13:29:01+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:29:01+0800: = 
+2026-06-05 13:29:01+0800: Controller: genmove white
+2026-06-05 13:29:04+0800: MoveNum: 1 HASH: 552145813441991281B6ABFE388C3EE4
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . X1. @ . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.718
+Root visits: 15
+New playouts: 15
+NN rows: 15
+NN batches: 15
+NN avg batch size: 1
+PV: F5 E3 E7 D7 D8 E6 C7 F6
+Tree:
+: T  83.15c W  83.35c S   0.95c ( +1.5 L  +0.6) N      15  --  F5 E3 E7 D7 D8 E6 C7
+---White(^)---
+F5  : T  82.87c W  83.18c S   0.94c ( +1.5 L  +0.6) LCB   77.85c P 95.51% WF  22.0 PSV      22 N      14  --  F5 E3 E7 D7 D8 E6 C7 F6
+
+2026-06-05 13:29:04+0800: = F5
+2026-06-05 13:29:12+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:29:12+0800: = 
+2026-06-05 13:29:12+0800: Controller: lz-analyze b 10
+2026-06-05 13:29:12+0800: =
+2026-06-05 13:29:12+0800: Controller: stop
+2026-06-05 13:29:12+0800: = 
+2026-06-05 13:29:31+0800: Controller: play black E7
+2026-06-05 13:29:31+0800: = 
+2026-06-05 13:29:31+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:29:31+0800: = 
+2026-06-05 13:29:31+0800: Controller: genmove white
+2026-06-05 13:29:32+0800: MoveNum: 3 HASH: 480CAF5E95B4B06BDF137E9B5839ADAA
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . X3. . . .
+ 6 . . . . . . . . .
+ 5 . . . X1. O2. . .
+ 4 . . . . . . . . .
+ 3 . . . . @ . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 1.656
+Root visits: 15
+New playouts: 15
+NN rows: 9
+NN batches: 9
+NN avg batch size: 1
+PV: E3 D3 D2 E4 C3 D4 E6 D6 F7
+Tree:
+: T  82.84c W  81.76c S   1.33c ( +1.6 L  +0.8) N      15  --  E3 D3 D2 E4 C3 D4 E6
+---White(^)---
+E3  : T  82.21c W  81.14c S   1.36c ( +1.6 L  +0.8) LCB   74.99c P 91.33% WF  18.6 PSV      19 N      14  --  E3 D3 D2 E4 C3 D4 E6 D6
+
+2026-06-05 13:29:32+0800: = E3
+2026-06-05 13:29:36+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:29:36+0800: = 
+2026-06-05 13:29:36+0800: Controller: lz-analyze b 10
+2026-06-05 13:29:36+0800: =
+2026-06-05 13:29:36+0800: Controller: stop
+2026-06-05 13:29:36+0800: = 
+2026-06-05 13:29:36+0800: Controller: stop
+2026-06-05 13:29:36+0800: = 
+2026-06-05 13:30:00+0800: Controller: play black D3
+2026-06-05 13:30:00+0800: = 
+2026-06-05 13:30:00+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:30:00+0800: = 
+2026-06-05 13:30:00+0800: Controller: genmove white
+2026-06-05 13:30:01+0800: MoveNum: 5 HASH: 8465EB7B66764BDB1D51C17CB14186F5
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . X1. . . .
+ 6 . . . . . . . . .
+ 5 . . . X . O . . .
+ 4 . . . . . . . . .
+ 3 . . . X3O2. . . .
+ 2 . . . @ . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.578
+Root visits: 15
+New playouts: 15
+NN rows: 3
+NN batches: 3
+NN avg batch size: 1
+PV: D2 E4 C3 D4 E6 D6 F7
+Tree:
+: T  82.24c W  80.78c S   1.55c ( +1.6 L  +0.8) N      15  --  D2 E4 C3 D4 E6 D6 F7
+---White(^)---
+D2  : T  83.26c W  81.48c S   1.86c ( +1.7 L  +0.9) LCB   75.36c P 72.16% WF  14.1 PSV      14 N      11  --  D2 E4 C3 D4 E6 D6 F7
+F7  : T  76.37c W  76.05c S   0.47c ( +1.1 L  +0.4) LCB    1.15c P 24.59% WF   3.4 PSV       3 N       3  --  F7 E4 E6
+
+2026-06-05 13:30:01+0800: = D2
+2026-06-05 13:30:04+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:30:04+0800: = 
+2026-06-05 13:30:04+0800: Controller: lz-analyze b 10
+2026-06-05 13:30:04+0800: =
+2026-06-05 13:30:04+0800: Controller: stop
+2026-06-05 13:30:04+0800: = 
+2026-06-05 13:30:28+0800: Controller: play black E4
+2026-06-05 13:30:28+0800: = 
+2026-06-05 13:30:28+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:30:28+0800: = 
+2026-06-05 13:30:28+0800: Controller: genmove white
+2026-06-05 13:30:29+0800: MoveNum: 7 HASH: 3431F9E8282969A4F744CFDBB361C631
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . X . . . .
+ 6 . . . . . . . . .
+ 5 . . . X . O . . .
+ 4 . . . . X3. . . .
+ 3 . . @ X1O . . . .
+ 2 . . . O2. . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.563
+Root visits: 15
+New playouts: 15
+NN rows: 3
+NN batches: 3
+NN avg batch size: 1
+PV: C3 D4 E6 D6 F7 E8 F3
+Tree:
+: T  79.51c W  79.02c S   1.60c ( +1.6 L  +0.9) N      15  --  C3 D4 E6 D6 F7 E8 F3
+---White(^)---
+C3  : T  79.35c W  78.87c S   1.74c ( +1.7 L  +1.0) LCB   69.48c P 77.65% WF  14.1 PSV      14 N      12  --  C3 D4 E6 D6 F7 E8 F3
+F4  : T  76.34c W  76.05c S   1.05c ( +1.4 L  +0.5) LCB  -75.31c P 19.87% WF   2.3 PSV       3 N       2  --  F4 E2
+
+2026-06-05 13:30:29+0800: = C3
+2026-06-05 13:30:32+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:30:32+0800: = 
+2026-06-05 13:30:32+0800: Controller: lz-analyze b 10
+2026-06-05 13:30:32+0800: =
+2026-06-05 13:30:32+0800: Controller: stop
+2026-06-05 13:30:32+0800: = 
+2026-06-05 13:30:47+0800: Controller: play black D4
+2026-06-05 13:30:47+0800: = 
+2026-06-05 13:30:47+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:30:47+0800: = 
+2026-06-05 13:30:47+0800: Controller: genmove white
+2026-06-05 13:30:49+0800: MoveNum: 9 HASH: AADB5DA67B81B836B4C44EAA435519BE
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . X . . . .
+ 6 . . . . @ . . . .
+ 5 . . . X . O . . .
+ 4 . . . X3X1. . . .
+ 3 . . O2X O . . . .
+ 2 . . . O . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 1.5
+Root visits: 15
+New playouts: 15
+NN rows: 8
+NN batches: 8
+NN avg batch size: 1
+PV: E6 D6 F7 E8 F3 F4 G4 C2
+Tree:
+: T  70.53c W  72.18c S   0.39c ( +1.4 L  +0.9) N      15  --  E6 D6 F7 E8 F3 F4 G4
+---White(^)---
+E6  : T  68.31c W  70.50c S   0.30c ( +1.4 L  +0.8) LCB   53.49c P 87.28% WF  12.0 PSV      12 N      13  --  E6 D6 F7 E8 F3 F4 G4 C2
+F7  : T  70.03c W  69.74c S   0.29c ( +1.3 L  +0.6) LCB -279.97c P  8.48% WF   1.2 PSV       1 N       1  --  F7
+
+2026-06-05 13:30:49+0800: = E6
+2026-06-05 13:30:53+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:30:53+0800: = 
+2026-06-05 13:30:53+0800: Controller: lz-analyze b 10
+2026-06-05 13:30:53+0800: =
+2026-06-05 13:30:53+0800: Controller: stop
+2026-06-05 13:30:53+0800: = 
+2026-06-05 13:31:20+0800: Controller: play black D6
+2026-06-05 13:31:20+0800: = 
+2026-06-05 13:31:20+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:31:20+0800: = 
+2026-06-05 13:31:20+0800: Controller: genmove white
+2026-06-05 13:31:20+0800: MoveNum: 11 HASH: F38388A4D8399833AA5A0F6A66EECD63
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . X @ . . .
+ 6 . . . X3O2. . . .
+ 5 . . . X . O . . .
+ 4 . . . X1X . . . .
+ 3 . . O X O . . . .
+ 2 . . . O . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.797
+Root visits: 15
+New playouts: 15
+NN rows: 4
+NN batches: 4
+NN avg batch size: 1
+PV: F7 E8 F3 F4 G4 C2 B2 G3 G5
+Tree:
+: T  73.57c W  72.69c S   0.18c ( +1.3 L  +0.8) N      15  --  F7 E8 F3 F4 G4 C2 B2
+---White(^)---
+F7  : T  72.39c W  71.55c S   0.09c ( +1.2 L  +0.8) LCB   56.37c P 87.90% WF  12.8 PSV      13 N      14  --  F7 E8 F3 F4 G4 C2 B2 G3
+
+2026-06-05 13:31:20+0800: = F7
+2026-06-05 13:31:26+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:31:26+0800: = 
+2026-06-05 13:31:26+0800: Controller: lz-analyze b 10
+2026-06-05 13:31:26+0800: =
+2026-06-05 13:31:26+0800: Controller: stop
+2026-06-05 13:31:26+0800: = 
+2026-06-05 13:31:36+0800: Controller: play black E8
+2026-06-05 13:31:36+0800: = 
+2026-06-05 13:31:36+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:31:36+0800: = 
+2026-06-05 13:31:36+0800: Controller: genmove white
+2026-06-05 13:31:38+0800: MoveNum: 13 HASH: 560FAE938BCC59738ADC0811F1D926D9
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X3. . . .
+ 7 . . . @ X O2. . .
+ 6 . . . X1O . . . .
+ 5 . . . X . O . . .
+ 4 . . . X X . . . .
+ 3 . . O X O . . . .
+ 2 . . . O . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 1.297
+Root visits: 15
+New playouts: 15
+NN rows: 7
+NN batches: 7
+NN avg batch size: 1
+PV: D7 F8 G7 G8 H8 F4
+Tree:
+: T  70.84c W  67.78c S   1.38c ( +1.4 L  +0.9) N      15  --  D7 F8 G7 G8 H8 F4
+---White(^)---
+D7  : T  72.18c W  68.22c S   1.57c ( +1.5 L  +1.0) LCB   59.44c P 59.15% WF   8.8 PSV       9 N      10  --  D7 F8 G7 G8 H8 F4
+F3  : T  73.53c W  71.97c S   1.34c ( +1.3 L  +0.9) LCB   -0.47c P 15.78% WF   2.5 PSV       2 N       3  --  F3 F4 G4
+E2  : T  48.63c W  48.62c S   0.01c ( +0.7 L  +0.3) LCB -301.37c P 19.75% WF   0.7 PSV       1 N       1  --  E2
+
+2026-06-05 13:31:38+0800: = D7
+2026-06-05 13:31:42+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:31:42+0800: = 
+2026-06-05 13:31:42+0800: Controller: lz-analyze b 10
+2026-06-05 13:31:42+0800: =
+2026-06-05 13:31:42+0800: Controller: stop
+2026-06-05 13:31:42+0800: = 
+2026-06-05 13:31:42+0800: Controller: stop
+2026-06-05 13:31:42+0800: = 
+2026-06-05 13:31:53+0800: Controller: play black F8
+2026-06-05 13:31:53+0800: = 
+2026-06-05 13:31:53+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:31:53+0800: = 
+2026-06-05 13:31:53+0800: Controller: genmove white
+2026-06-05 13:31:55+0800: MoveNum: 15 HASH: CCA7401CF3E33155E78B9366A6070119
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X1X3. . .
+ 7 . . . O2X O @ . .
+ 6 . . . X O . . . .
+ 5 . . . X . O . . .
+ 4 . . . X X . . . .
+ 3 . . O X O . . . .
+ 2 . . . O . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 1.672
+Root visits: 15
+New playouts: 15
+NN rows: 9
+NN batches: 9
+NN avg batch size: 1
+PV: G7 G8 H8 C7 E2 F4
+Tree:
+: T  69.24c W  66.55c S   1.20c ( +1.3 L  +0.8) N      15  --  G7 G8 H8 C7 E2 F4
+---White(^)---
+G7  : T  69.79c W  66.98c S   1.22c ( +1.3 L  +0.8) LCB   54.86c P 98.99% WF  10.9 PSV      11 N      14  --  G7 G8 H8 C7 E2 F4
+
+2026-06-05 13:31:55+0800: = G7
+2026-06-05 13:31:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:31:58+0800: = 
+2026-06-05 13:31:58+0800: Controller: lz-analyze b 10
+2026-06-05 13:31:58+0800: =
+2026-06-05 13:31:58+0800: Controller: stop
+2026-06-05 13:31:58+0800: = 
+2026-06-05 13:31:58+0800: Controller: stop
+2026-06-05 13:31:58+0800: = 
+2026-06-05 13:31:58+0800: Controller: stop
+2026-06-05 13:31:58+0800: = 
+2026-06-05 13:32:09+0800: Controller: play black G8
+2026-06-05 13:32:09+0800: = 
+2026-06-05 13:32:09+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:32:09+0800: = 
+2026-06-05 13:32:09+0800: Controller: genmove white
+2026-06-05 13:32:10+0800: MoveNum: 17 HASH: FCC90B683FA719E816D450E3EACD9690
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X X1X3@ .
+ 7 . . . O X O O2. .
+ 6 . . . X O . . . .
+ 5 . . . X . O . . .
+ 4 . . . X X . . . .
+ 3 . . O X O . . . .
+ 2 . . . O . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.969
+Root visits: 15
+New playouts: 15
+NN rows: 5
+NN batches: 5
+NN avg batch size: 1
+PV: H8 F4 D8 G5 H6 H5 G9
+Tree:
+: T  67.73c W  66.00c S   0.84c ( +1.2 L  +0.8) N      15  --  H8 F4 D8 G5 H6 H5 G9
+---White(^)---
+H8  : T  67.86c W  66.07c S   0.84c ( +1.2 L  +0.8) LCB   58.18c P 97.36% WF  10.4 PSV      10 N      14  --  H8 F4 D8 G5 H6 H5 G9
+
+2026-06-05 13:32:10+0800: = H8
+2026-06-05 13:32:14+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:32:14+0800: = 
+2026-06-05 13:32:14+0800: Controller: lz-analyze b 10
+2026-06-05 13:32:14+0800: =
+2026-06-05 13:32:14+0800: Controller: stop
+2026-06-05 13:32:14+0800: = 
+2026-06-05 13:32:21+0800: Controller: play black C7
+2026-06-05 13:32:21+0800: = 
+2026-06-05 13:32:21+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:32:21+0800: = 
+2026-06-05 13:32:21+0800: Controller: genmove white
+2026-06-05 13:32:23+0800: MoveNum: 19 HASH: 095B6B28F4841F3BBF13724DC75B592C
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X X X1O2.
+ 7 . . X3O X O O . .
+ 6 . . . X O . . . .
+ 5 . . . X . O . . .
+ 4 . . . X X . . . .
+ 3 . . O X O . . . .
+ 2 . . . O @ . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 1.86
+Root visits: 15
+New playouts: 15
+NN rows: 10
+NN batches: 10
+NN avg batch size: 1
+PV: E2 F4 G4 G3 H4 F3 B4
+Tree:
+: T  80.25c W  76.80c S   0.95c ( +0.9 L  +0.5) N      15  --  E2 F4 G4 G3 H4 F3 B4
+---White(^)---
+E2  : T  83.06c W  78.94c S   1.01c ( +0.9 L  +0.5) LCB   66.15c P 63.54% WF  11.1 PSV      11 N      12  --  E2 F4 G4 G3 H4 F3 B4
+F3  : T  57.01c W  59.01c S   0.58c ( +0.8 L  +0.6) LCB  -96.56c P 29.38% WF   1.0 PSV       1 N       2  --  F3 F4
+
+2026-06-05 13:32:23+0800: = E2
+2026-06-05 13:32:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:32:33+0800: = 
+2026-06-05 13:32:33+0800: Controller: lz-analyze b 10
+2026-06-05 13:32:33+0800: =
+2026-06-05 13:32:33+0800: Controller: stop
+2026-06-05 13:32:33+0800: = 
+2026-06-05 13:32:43+0800: Controller: play black F4
+2026-06-05 13:32:43+0800: = 
+2026-06-05 13:32:43+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:32:43+0800: = 
+2026-06-05 13:32:43+0800: Controller: genmove white
+2026-06-05 13:32:44+0800: MoveNum: 21 HASH: 5A01412988988E6C31DCFBD59F4F0A90
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X X X O .
+ 7 . . X1O X O O . .
+ 6 . . . X O . . . .
+ 5 . . . X . O . . .
+ 4 . . . X X X3@ . .
+ 3 . . O X O . . . .
+ 2 . . . O O2. . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.75
+Root visits: 15
+New playouts: 15
+NN rows: 4
+NN batches: 4
+NN avg batch size: 1
+PV: G4 F3 G3 F2 B4 H2
+Tree:
+: T  91.20c W  85.73c S   2.51c ( +1.2 L  +0.8) N      15  --  G4 F3 G3 F2 B4 H2
+---White(^)---
+G4  : T  92.68c W  87.02c S   2.59c ( +1.2 L  +0.8) LCB   78.43c P 95.85% WF  15.9 PSV      16 N      14  --  G4 F3 G3 F2 B4 H2
+
+2026-06-05 13:32:44+0800: = G4
+2026-06-05 13:32:48+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:32:48+0800: = 
+2026-06-05 13:32:48+0800: Controller: lz-analyze b 10
+2026-06-05 13:32:48+0800: =
+2026-06-05 13:32:48+0800: Controller: stop
+2026-06-05 13:32:48+0800: = 
+2026-06-05 13:32:57+0800: Controller: play black H6
+2026-06-05 13:32:57+0800: = 
+2026-06-05 13:32:57+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:32:57+0800: = 
+2026-06-05 13:32:57+0800: Controller: genmove white
+2026-06-05 13:33:00+0800: MoveNum: 23 HASH: 8150E99A5ADCC63A7024A351C0770BEC
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X X X O .
+ 7 . . X O X O O @ .
+ 6 . . . X O . . X3.
+ 5 . . . X . O . . .
+ 4 . . . X X X1O2. .
+ 3 . . O X O . . . .
+ 2 . . . O O . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 2.828
+Root visits: 15
+New playouts: 15
+NN rows: 15
+NN batches: 15
+NN avg batch size: 1
+PV: H7 G3 F3 H4 G5 G2 H5
+Tree:
+: T  96.40c W  90.64c S   3.88c ( +2.6 L  +2.4) N      15  --  H7 G3 F3 H4 G5 G2 H5
+---White(^)---
+H7  : T  99.31c W  92.68c S   4.45c ( +2.8 L  +2.6) LCB   88.00c P 61.19% WF  15.9 PSV      16 N      12  --  H7 G3 F3 H4 G5 G2 H5
+H5  : T  64.92c W  66.35c S  -1.43c ( +0.4 L  +0.2) LCB -285.08c P 24.94% WF   0.6 PSV       1 N       1  --  H5
+G3  : T  70.24c W  71.43c S  -1.19c ( +0.5 L  +0.4) LCB -279.76c P 10.24% WF   0.6 PSV       0 N       1  --  G3
+
+2026-06-05 13:33:00+0800: = H7
+2026-06-05 13:33:14+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:33:14+0800: = 
+2026-06-05 13:33:14+0800: Controller: lz-analyze b 10
+2026-06-05 13:33:14+0800: =
+2026-06-05 13:33:14+0800: Controller: stop
+2026-06-05 13:33:14+0800: = 
+2026-06-05 13:33:19+0800: Controller: play black G3
+2026-06-05 13:33:19+0800: = 
+2026-06-05 13:33:19+0800: Controller: kata-set-param maxPlayouts 15
+2026-06-05 13:33:19+0800: = 
+2026-06-05 13:33:19+0800: Controller: genmove white
+2026-06-05 13:33:20+0800: MoveNum: 25 HASH: A4B3CC5FA8248DEB7BC3F1B46E6152EC
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . X X X O .
+ 7 . . X O X O O O2.
+ 6 . . . X O . . X1.
+ 5 . . . X . O . . .
+ 4 . . . X X X O @ .
+ 3 . . O X O . X3. .
+ 2 . . . O O . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 0.938
+Root visits: 15
+New playouts: 15
+NN rows: 5
+NN batches: 5
+NN avg batch size: 1
+PV: F3 H4 G5 G2 H5 B2
+Tree:
+: T 101.30c W  95.12c S   4.64c ( +3.1 L  +3.1) N      15  --  F3 H4 G5 G2 H5 B2
+---White(^)---
+F3  : T 106.10c W  93.47c S   8.80c ( +5.2 L  +5.6) LCB   76.36c P 26.34% WF   8.0 PSV      15 N       6  --  F3 H4 G5 G2 H5 B2
+H4  : T 101.24c W  97.27c S   2.88c ( +2.3 L  +2.2) LCB   75.36c P 47.86% WF  14.1 PSV      14 N       6  --  H4 F3 B4 H3
+H5  : T  85.94c W  87.28c S  -0.42c ( +1.1 L  +0.6) LCB  -66.54c P 24.50% WF   2.0 PSV       3 N       2  --  H5 H4
+
+2026-06-05 13:33:20+0800: = H4
+2026-06-05 13:33:27+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-05 13:33:27+0800: = 
+2026-06-05 13:33:27+0800: Controller: lz-analyze b 10
+2026-06-05 13:33:27+0800: =
+2026-06-05 13:33:28+0800: Controller: stop
+2026-06-05 13:33:28+0800: = 

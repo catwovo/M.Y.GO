@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c4xg4dwjgf7ha"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_6ir6d"]
+
+[resource]
+script = ExtResource("1_6ir6d")
+card_name = "加藤正夫"
+rarity = "UR"
+ai_style = "defensive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

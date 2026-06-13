@@ -1,0 +1,115 @@
+[gd_scene format=3 uid="uid://d0bu4f2wyh5c2"]
+
+[ext_resource type="Script" uid="uid://b55jfo6eras27" path="res://exit_confirm.gd" id="1_ky20k"]
+[ext_resource type="Shader" uid="uid://2po700e8pclf" path="res://blur.gdshader" id="2_2jsag"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cthb2"]
+shader = ExtResource("2_2jsag")
+shader_parameter/blur_amount = 2.5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2jsag"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+border_width_left = 15
+border_width_top = 15
+border_width_right = 15
+border_width_bottom = 15
+border_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cthb2"]
+bg_color = Color(0.88235295, 0.8745098, 0.8862745, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dubhl"]
+bg_color = Color(0.88235295, 0.8745098, 0.8862745, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fh3nf"]
+bg_color = Color(0.88235295, 0.8745098, 0.8862745, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="ExitConfirm" type="Control" unique_id=1506692089]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ky20k")
+
+[node name="Mask" type="ColorRect" parent="." unique_id=1791119883]
+material = SubResource("ShaderMaterial_cthb2")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.37254903)
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1459592109]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -257.5
+offset_top = -147.0
+offset_right = 257.5
+offset_bottom = 147.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2jsag")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=1695978244]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=1578990476]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 35
+text = "HUD_AYSY"
+horizontal_alignment = 1
+
+[node name="ButtonHBox" type="HBoxContainer" parent="PanelContainer/VBoxContainer" unique_id=1709230864]
+custom_minimum_size = Vector2(120, 120)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="SaveExitBtn" type="Button" parent="PanelContainer/VBoxContainer/ButtonHBox" unique_id=149563577]
+custom_minimum_size = Vector2(155, 125)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_cthb2")
+text = "HUD_OFFER"
+
+[node name="SurrenderBtn" type="Button" parent="PanelContainer/VBoxContainer/ButtonHBox" unique_id=1406142349]
+custom_minimum_size = Vector2(155, 125)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_dubhl")
+text = "HUD_ADMIT"
+
+[node name="CancelBtn" type="Button" parent="PanelContainer/VBoxContainer/ButtonHBox" unique_id=1687245252]
+custom_minimum_size = Vector2(155, 55)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 18
+theme_override_styles/normal = SubResource("StyleBoxFlat_fh3nf")
+text = "HUD_RETURN"

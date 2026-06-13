@@ -1,0 +1,26 @@
+2026-06-06 12:47:29+0800: Running with following config:
+allowResignation = true
+humanSLProfile = rank:3d
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-06 12:47:29+0800: GTP Engine starting...
+2026-06-06 12:47:29+0800: KataGo v1.16.5
+2026-06-06 12:47:29+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this

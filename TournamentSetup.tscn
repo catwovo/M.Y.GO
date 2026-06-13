@@ -1,0 +1,209 @@
+[gd_scene format=3 uid="uid://p6sttfdmt5eh"]
+
+[ext_resource type="Script" uid="uid://ekeym6y6pnk" path="res://tournament_setup.gd" id="1_46vll"]
+[ext_resource type="Texture2D" uid="uid://bgx37jqb0u08s" path="res://sucai/shan/7.png" id="2_xemmo"]
+[ext_resource type="Texture2D" uid="uid://emk5bammswsy" path="res://sucai/返回.png" id="3_he8o5"]
+[ext_resource type="Texture2D" uid="uid://b58yuak8iraig" path="res://sucai/黑2.png" id="3_kjyyj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xdb3w"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dr7xq"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xemmo"]
+bg_color = Color(0, 0, 0, 0.2901961)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_he8o5"]
+bg_color = Color(0, 0, 0, 0.2627451)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.1882353, 0.1882353, 0.1882353, 0.8392157)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kjyyj"]
+bg_color = Color(0, 0, 0, 0.25882354)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+corner_detail = 20
+
+[node name="TournamentSetup" type="Control" unique_id=1121371396]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_46vll")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1015836935]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_xemmo")
+expand_mode = 1
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1451386428]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 270.0
+offset_top = -22.0
+offset_right = -271.0
+offset_bottom = 9.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.24313726, 0.24313726, 0.24313726, 0.24705882)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1552602230]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -600.0
+offset_top = -501.0
+offset_right = 600.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=770139884]
+custom_minimum_size = Vector2(1200, 900)
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1415949527]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_font_sizes/font_size = 45
+text = "HUD_CHAMP"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer" unique_id=714073813]
+layout_mode = 2
+theme_override_constants/separation = 42
+
+[node name="LeftColumn" type="VBoxContainer" parent="CenterContainer/VBoxContainer/HBoxContainer" unique_id=1069139925]
+custom_minimum_size = Vector2(1200, 500)
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="SizeLabel" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn" unique_id=1558119285]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_font_sizes/font_size = 25
+text = "HUD_SCALE"
+
+[node name="SizeSlider" type="HSlider" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn" unique_id=321567148]
+custom_minimum_size = Vector2(20, 0)
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("3_kjyyj")
+theme_override_icons/grabber_highlight = ExtResource("3_kjyyj")
+theme_override_styles/slider = SubResource("StyleBoxFlat_xdb3w")
+max_value = 2.0
+tick_count = 3
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="BoardSlider" type="VBoxContainer" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn" unique_id=1616167473]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn/BoardSlider" unique_id=1424833826]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_font_sizes/font_size = 25
+text = "HUD_SIZE"
+
+[node name="Slider" type="HSlider" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn/BoardSlider" unique_id=340015629]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("3_kjyyj")
+theme_override_icons/grabber_highlight = ExtResource("3_kjyyj")
+theme_override_styles/slider = SubResource("StyleBoxFlat_dr7xq")
+max_value = 2.0
+tick_count = 3
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="LeaderLabel" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn" unique_id=629023079]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_font_sizes/font_size = 25
+text = "HUD_BATTLE"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn" unique_id=1566663743]
+custom_minimum_size = Vector2(0, 500)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xemmo")
+
+[node name="LeaderGrid" type="GridContainer" parent="CenterContainer/VBoxContainer/HBoxContainer/LeftColumn/ScrollContainer" unique_id=590724673]
+custom_minimum_size = Vector2(1200, 450)
+layout_mode = 2
+theme_override_constants/h_separation = 25
+columns = 5
+
+[node name="RegisterBtn" type="Button" parent="CenterContainer/VBoxContainer" unique_id=605339675]
+custom_minimum_size = Vector2(400, 70)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_he8o5")
+text = "HUD_ENTER"
+
+[node name="BackButton" type="Button" parent="." unique_id=1785084613]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 872.0
+offset_top = -984.0
+offset_right = 952.0
+offset_bottom = -904.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 22
+theme_override_styles/normal = SubResource("StyleBoxFlat_kjyyj")
+icon = ExtResource("3_he8o5")
+flat = true
+expand_icon = true

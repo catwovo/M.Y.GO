@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://b15d6qelgwd2g"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_xrv4a"]
+
+[resource]
+script = ExtResource("1_xrv4a")
+card_name = "周泓余"
+ai_rank = "preaz_3d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://sx1fvk3rojta"]
+
+[ext_resource type="Script" uid="uid://b5063x5acfek7" path="res://Card.gd" id="1_dd2wi"]
+[ext_resource type="Texture2D" uid="uid://bgo7and07fxhi" path="res://sucai/卡牌背景.png" id="2_hael8"]
+
+[node name="Card" type="TextureButton" unique_id=429888910]
+custom_minimum_size = Vector2(200, 250)
+offset_left = 12.0
+offset_top = 4.0
+offset_right = 212.0
+offset_bottom = 254.0
+action_mode = 0
+script = ExtResource("1_dd2wi")
+
+[node name="ColorRect" type="TextureRect" parent="." unique_id=1179949995]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_hael8")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=679500996]
+custom_minimum_size = Vector2(150, 200)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 17.0
+offset_top = 16.0
+offset_right = -15.0
+offset_bottom = -6.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/separation = -25
+
+[node name="PortraitRect" type="TextureRect" parent="VBoxContainer" unique_id=755365818]
+visible = false
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="NameLabel" type="Label" parent="VBoxContainer" unique_id=532349235]
+custom_minimum_size = Vector2(150, 50)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
+
+[node name="DescLabel" type="Label" parent="VBoxContainer" unique_id=1387639725]
+custom_minimum_size = Vector2(150, 162)
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 16
+autowrap_mode = 1
+clip_text = true
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/DescLabel" unique_id=756132349]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_right = 6.0
+offset_bottom = 13.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.39215687)

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://duogj25ciitp6"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_1x2fv"]
+
+[resource]
+script = ExtResource("1_1x2fv")
+card_name = "李昌镐"
+rarity = "SSR"
+description = "行棋坚若磐石，官子天下第一"
+ai_style = "defensive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

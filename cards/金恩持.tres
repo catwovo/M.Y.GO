@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dksymqhyw2v8v"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_t1a0v"]
+
+[resource]
+script = ExtResource("1_t1a0v")
+card_name = "金恩持"
+rarity = "SR"
+ai_rank = "preaz_3d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

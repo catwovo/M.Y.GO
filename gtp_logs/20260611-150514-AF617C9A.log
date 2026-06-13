@@ -1,0 +1,207 @@
+2026-06-11 15:05:14+0800: Running with following config:
+allowResignation = true
+analysisOutputOwnership = true
+humanSLProfile = preaz_9d
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-11 15:05:14+0800: GTP Engine starting...
+2026-06-11 15:05:14+0800: KataGo v1.16.5
+2026-06-11 15:05:14+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-11 15:05:14+0800: Using 2 CPU thread(s) for search
+2026-06-11 15:05:14+0800: nnRandSeed0 = 14425731149458311946
+2026-06-11 15:05:14+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-11 15:05:14+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-11 15:05:15+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-11 15:05:15+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-11 15:05:15+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-11 15:05:15+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-11 15:05:15+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-11 15:05:15+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-11 15:05:15+0800: --------------
+2026-06-11 15:05:15+0800: WARNING: Config had unused keys! You may have a typo, an option you specified is being unused from E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:05:15+0800: WARNING: Unused key 'analysisOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:05:15+0800: WARNING: Unused key 'lzAnalyzeOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:05:15+0800: --------------
+2026-06-11 15:05:15+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:05:15+0800: Loaded model E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz
+2026-06-11 15:05:15+0800: Model name: b18c384nbt-humanv0
+2026-06-11 15:05:15+0800: GTP ready, beginning main protocol loop
+2026-06-11 15:05:15+0800: Controller: boardsize 9
+2026-06-11 15:05:15+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-11 15:05:16+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-11 15:05:16+0800: Cleaned up old neural net and bot
+2026-06-11 15:05:16+0800: nnRandSeed0 = 5982803185642518748
+2026-06-11 15:05:16+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-11 15:05:16+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-11 15:05:17+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-11 15:05:17+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-11 15:05:17+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-11 15:05:17+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-11 15:05:17+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-11 15:05:17+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: komi 7.5
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: clear_board
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: boardsize 9
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: komi 3.5
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: clear_board
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: kata-set-param maxPlayouts 10
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: kata-set-param maxVisits 10
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: kata-set-param chosenMoveTemperature 1.5
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: kata-set-param humanSLProfile preaz_5k
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:05:17+0800: = 
+2026-06-11 15:05:17+0800: Controller: genmove black
+2026-06-11 15:05:19+0800: MoveNum: 0 HASH: 9F0B2D702FC8448C75410E097F089AEB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . @ . . . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 1.562
+Root visits: 10
+New playouts: 10
+NN rows: 10
+NN batches: 10
+NN avg batch size: 1
+PV: E5 E7 E3 G6
+Tree:
+: T   8.47c W   7.95c S  -0.30c ( -0.8 L  -0.9) N      10  --  E5 E7 E3 G6
+---Black(^)---
+E5  : T   8.45c W   7.79c S  -0.27c ( -0.8 L  -0.9) LCB   -0.97c P 25.18% WF  11.8 PSV      12 N       9  --  E5 E7 E3 G6
+
+2026-06-11 15:05:19+0800: = E5
+2026-06-11 15:05:20+0800: Controller: stop
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: kata-set-param playoutDoublingAdvantage 2.5
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: kata-set-param maxVisits 100
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-11 15:05:20+0800: = 
+2026-06-11 15:05:20+0800: Controller: lz-analyze w 10
+2026-06-11 15:05:20+0800: =
+2026-06-11 15:05:26+0800: Controller: stop
+2026-06-11 15:05:26+0800: = 
+2026-06-11 15:05:26+0800: Controller: stop
+2026-06-11 15:05:26+0800: = 
+2026-06-11 15:05:26+0800: Controller: play black G5
+2026-06-11 15:05:26+0800: = 
+2026-06-11 15:05:50+0800: Controller: stop
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-11 15:05:50+0800: = 
+2026-06-11 15:05:50+0800: Controller: lz-analyze w 10
+2026-06-11 15:05:50+0800: =
+2026-06-11 15:06:03+0800: Controller: stop
+2026-06-11 15:06:03+0800: = 
+2026-06-11 15:06:14+0800: Controller: stop
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: play white G3
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: kata-set-param maxPlayouts 10
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: kata-set-param maxVisits 10
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: kata-set-param chosenMoveTemperature 1.5
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: kata-set-param humanSLProfile preaz_5k
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:06:14+0800: = 
+2026-06-11 15:06:14+0800: Controller: genmove black
+2026-06-11 15:06:16+0800: MoveNum: 2 HASH: D4B505E3D281530920FB68F15D221E42
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . X . X1. .
+ 4 . . . . . . . . .
+ 3 . . . . @ . O2. .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 1.61
+Root visits: 10
+New playouts: 10
+NN rows: 10
+NN batches: 10
+NN avg batch size: 1
+PV: D3 E2 D2
+Tree:
+: T  62.13c W  59.99c S   3.56c ( +4.5 L  +4.8) N      10  --  D3 E2 D2
+---Black(^)---
+D3  : T  66.19c W  61.98c S   4.48c ( +5.1 L  +5.4) LCB   20.38c P 10.64% WF  12.0 PSV      14 N       4  --  D3 E2 D2
+E3  : T  56.07c W  58.50c S   3.71c ( +4.7 L  +4.8) LCB  -95.10c P 32.81% WF   5.4 PSV       6 N       2  --  E3 F4
+D7  : T  63.36c W  60.05c S   4.19c ( +4.8 L  +5.1) LCB  -88.66c P  9.51% WF   6.3 PSV       5 N       2  --  D7 D3
+C5  : T  60.91c W  61.17c S  -0.26c ( +2.2 L  +1.4) LCB -289.09c P 11.48% WF   2.7 PSV       3 N       1  --  C5
+
+2026-06-11 15:06:16+0800: = E3
+2026-06-11 15:06:24+0800: Controller: stop
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: kata-set-param maxVisits 100
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-11 15:06:24+0800: = 
+2026-06-11 15:06:24+0800: Controller: lz-analyze w 10
+2026-06-11 15:06:24+0800: =
+2026-06-11 15:06:37+0800: Controller: stop
+2026-06-11 15:06:37+0800: = 
+2026-06-11 15:06:37+0800: Controller: stop
+2026-06-11 15:06:37+0800: = 
+2026-06-11 15:06:37+0800: Controller: play black F2
+2026-06-11 15:06:37+0800: = 

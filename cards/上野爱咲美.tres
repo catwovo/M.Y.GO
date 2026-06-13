@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://xw08sqesebe1"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_5kwa0"]
+
+[resource]
+script = ExtResource("1_5kwa0")
+card_name = "上野爱咲美"
+ai_rank = "preaz_3d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

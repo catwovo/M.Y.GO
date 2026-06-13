@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c3g6q7xvkh1ri"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_ivty7"]
+
+[resource]
+script = ExtResource("1_ivty7")
+card_name = "藤泽里菜"
+ai_rank = "preaz_1d"
+ai_style = "defensive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

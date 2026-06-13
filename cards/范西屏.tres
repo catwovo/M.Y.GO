@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://clve7gax5kio5"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_505av"]
+
+[resource]
+script = ExtResource("1_505av")
+card_name = "范西屏"
+rarity = "UR"
+ai_rank = "preaz_5d"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

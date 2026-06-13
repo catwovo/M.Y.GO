@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://b7egjvy5icrst"]
+
+[ext_resource type="Script" uid="uid://cgjtg0idreji8" path="res://bracket_view.gd" id="1_set36"]
+[ext_resource type="Texture2D" uid="uid://bk3oofpppph3i" path="res://sucai/shan/2.png" id="2_q6fet"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6fet"]
+bg_color = Color(0, 0, 0, 0.3764706)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+corner_detail = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nso5t"]
+bg_color = Color(0, 0, 0, 0.31764707)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+corner_detail = 20
+
+[node name="BracketView" type="Control" unique_id=880386415]
+show_behind_parent = true
+custom_minimum_size = Vector2(1700, 700)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="." unique_id=70290309]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_q6fet")
+expand_mode = 1
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1022549802]
+layout_mode = 0
+offset_right = 1918.0
+offset_bottom = 849.0
+color = Color(0, 0, 0, 0.3137255)
+
+[node name="BracketContainer" type="Control" parent="." unique_id=1761079443]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 4.0
+offset_bottom = -232.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_set36")
+
+[node name="BackButton" type="Button" parent="." unique_id=1618667995]
+custom_minimum_size = Vector2(600, 70)
+layout_mode = 0
+offset_left = 660.0
+offset_top = 965.0
+offset_right = 1260.0
+offset_bottom = 1035.0
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_q6fet")
+text = "HUD_RETURN"
+
+[node name="StartMatchBtn" type="Button" parent="." unique_id=1857138870]
+custom_minimum_size = Vector2(600, 70)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = -208.0
+offset_right = 300.0
+offset_bottom = -138.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxFlat_nso5t")
+text = "HUD_START"

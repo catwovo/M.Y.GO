@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dhru1ks0lwu1b"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_mnd8n"]
+
+[resource]
+script = ExtResource("1_mnd8n")
+card_name = "常昊"
+rarity = "SSR"
+description = "厚实守成：防守极佳，大局观开阔..."
+ai_style = "defensive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

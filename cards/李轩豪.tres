@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://dlp4ltqiwkacw"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_2jrgj"]
+
+[resource]
+script = ExtResource("1_2jrgj")
+card_name = "李轩豪"
+rarity = "SR"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

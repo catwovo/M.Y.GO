@@ -1,0 +1,92 @@
+keys,zh,en
+MENU_BACK,返回大厅,Back to Lobby
+MENU_START_GAME,开启对局,Start Match
+UTILITY_WINRATE,胜率,Show Winrate
+UTILITY_SHADOW,形势判断,Show Territory
+UTILITY_MANUAL,自主下棋,Manual Play
+UTILITY_C_AI,AI分析,AI Review
+HUD_KOMI,当前贴目: %s 目,Komi: %s pts
+HUD_BLACK_CAP,黑棋 提子: %d 子,Black  Captured: %d
+HUD_WHITE_CAP,白棋 提子: %d 子,White Captured: %d
+HUD_TIME,对局用时: %s,Time: %s
+DECK_STATUS,已解锁棋手牌（点击亮起加入卡组）：\n当前卡组大小：%d/20,Unlocked cards (Click to add/remove):\nCurrent Deck: %d/20
+HUD_PLAY,执子选择:,Player's Choice
+HUD_BLLACK,执黑 (先手),black
+HUD_WHITE,执白 (后手),white
+HUD_DUEL,对决对手:,Opponent in Duel
+HUD_SIZE,棋盘大小:,Board Size
+HUD_CHESS,AI 棋力级别:,chess skill
+HUD_STYLE,AI 棋风偏好:,Style
+HUD_HIDE,隐藏落子顺序,Hide move order
+HUD_LAST,只显最后一手,last move
+HUD_ALL,显示全部顺序,all order
+HUD_GMAE,快 速 游 戏,Quick Game
+HUD_GMAE2,锦 标 赛 模 式,Championship
+HUD_AI,AI对战,AI Battle
+HUD_PLAYER,棋手对战,Player vs
+HUD_SHEZHI,设置,Settings
+HUD_MODEL,模型选择,Model Selection
+HUD_LANG,语言选择,Language Selection
+HUD_DISP,显示模式,Display Mode
+HUD_SAVE,保存并关闭,Save and Close
+HUD_SELECT,请选择对局模式,Please select the game mode
+HUD_CHAMP,锦标赛,Championship
+HUD_SCALE,参赛规模,Participation Scale
+HUD_BATTLE,请选择出战棋手,Please select the player to battle
+HUD_ENTER,进入对局,Enter the match
+HUD_START,开启本轮对局,Start this round of the game
+HUD_RETURN,返回,Return
+DECK_TIPS_WELCOME,卡牌整备仓库。点击首发棋手加入你的 20 张实战卡组！,Card Deck Warehouse. Click characters to add or remove from your 20-card deck!
+DECK_TIPS_REMOVE,已将 [%s] 移出卡组。,Removed [%s] from your deck.
+DECK_TIPS_ADD,已将 [%s] 加入卡组。,Added [%s] to your deck.
+DECK_TIPS_FULL,卡组已满！最大限制 20 张卡牌。,The deck is full! Maximum limit is 20 cards.
+PUZZLE_TIP,黑先吃子：点击合适的位置落子，吃掉白子即可开启对局！,Black to play and capture: Place a black stone to capture the white stone and start!
+PUZZLE_SOLVED,解谜成功！正在为您开启游戏配置面板...,Puzzle solved! Opening the setup panel...
+POPUP_RESUME_TITLE,检测到未完结的对局！\n是否继续上一次的战局？,Active match detected!\nDo you want to resume?
+POPUP_RESUME_BTN, 继续上局对局 , Resume Match 
+POPUP_NEW_BTN, 放弃并新开一局 , Start New Match 
+TOURNAMENT_SIZE_LBL,参赛规模：%d 人淘汰赛 (需要连胜 %d 轮),Roster: %d Players (Win %d rounds)
+VIRTUAL_PLAYER,棋手_%d,Player_%d
+BOARD_LBL,对局棋盘: %s,Board Size: %s
+BOARD_9X9,9路棋盘 (快速对局),9x9 Board (Quick Play)
+BOARD_13X13,13路棋盘 (中级战术),13x13 Board (Tactical)
+BOARD_19X19,19路棋盘 (标准赛制),19x19 Board (Standard)
+
+keys,zh,en
+STATUS_MATCHING,正在为您匹配对手: %s...,Matching opponent: %s...
+STATUS_TOURNAMENT,🏆 锦标赛第 %d 轮 | 对手: %s (级别: %s | 风格: %s),Tournament Round %d | Opponent: %s (Rank: %s | Style: %s)
+STATUS_BRAIN_FAIL,连接大脑失败,Failed to connect AI brain
+NUM_OPT_NONE,隐藏落子顺序,Hide Move Order
+NUM_OPT_LAST,只显最后一手,Show Last Move
+NUM_OPT_ALL,显示全部顺序,Show All Orders
+DIFF_LBL,AI 棋力级别: %s,AI Rank: %s
+STYLE_LBL,AI 棋风偏好: %s,AI Style: %s
+OPPONENT_LBL,对决对手: %s,Opponent: %s
+COLOR_LBL,执子选择: %s,Your Color: %s
+COLOR_BLACK,执黑 (先手),Black (First)
+COLOR_WHITE,执白 (后手),White (Second)
+STYLE_BALANCED,大局均衡,Balanced
+STYLE_AGGRESSIVE,力战混战,Aggressive
+STYLE_DEFENSIVE,坚实稳健,Defensive
+STYLE_COSMIC,宇宙中腹,Cosmic
+SSR,橙色神卡,SSR (Legendary)
+SR,金色金卡,SR (Epic)
+R,紫色紫卡,R (Rare)
+balanced,大局均衡,Balanced
+aggressive,力战混战,Aggressive
+defensive,坚实稳健,Defensive
+cosmic,宇宙中腹,Cosmic
+NUM_EXIT,退出对局,Exit 
+CHOSE,选择一张棋手牌，听听他们的战术长考...,Choose a chess player card and listen to their tactical deep thinking...
+STATUS_PLANNING,KataGo 正在为您深度规划落子点...,KataGo is deeply planning moves for you...
+DIALOG_THINKING_TITLE,战术长考中...,Tactical Thought...
+DIALOG_THINKING_DESC,%s 正在深思熟虑，规划最佳落子要冲...,%s is deeply pondering the board, planning the best move...
+DIALOG_HEADER,AI 实战局势研判：,AI Tactical Analysis:
+FALLBACK_COMMENT,「此手棋理深奥，值得一试。」,"This move is profound and worth trying."
+DIALOG_OPTION_WINRATE,[b]选项 %s: 坐标 %s[/b] (胜率: [color=green]%.1f%%[/color])\n,[b]Option %s: Coord %s[/b] (Winrate: [color=green]%.1f%%[/color])\n
+DIALOG_OPTION,[b]选项 %s: 坐标 %s[/b]\n,[b]Option %s: Coord %s[/b]\n
+DIALOG_GENERATING_TITLE,战术点评生成中...,Commentary Generating...
+DIALOG_GENERATING_DESC,%s 正在挥毫泼墨，撰写大白话评语...,%s is drafting the commentary...
+HUD_AYSY,确定要离开对局吗？,EXIT GAME?
+HUD_OFFER,封盘,Adjournment
+HUD_ADMIT,认输,Resign

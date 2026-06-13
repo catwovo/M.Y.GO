@@ -1,0 +1,421 @@
+[gd_scene format=3 uid="uid://bydl0fbrpmhc3"]
+
+[ext_resource type="Script" uid="uid://b5kaxrsdop2h4" path="res://go_board.gd" id="1_hwyoe"]
+[ext_resource type="Texture2D" uid="uid://n5wrpbkr50yh" path="res://sucai/shan/6.png" id="2_81yf1"]
+[ext_resource type="Texture2D" uid="uid://buxoo8l01nn07" path="res://sucai/对话框.png" id="3_kkmjm"]
+[ext_resource type="Shader" uid="uid://2po700e8pclf" path="res://blur.gdshader" id="4_onugf"]
+[ext_resource type="Texture2D" uid="uid://ddn6i4xyf0m4x" path="res://sucai/黑.png" id="5_lfyfd"]
+[ext_resource type="Texture2D" uid="uid://chr4ddnwlf1ak" path="res://sucai/白.png" id="6_q5qo2"]
+[ext_resource type="Texture2D" uid="uid://b58yuak8iraig" path="res://sucai/黑2.png" id="7_q5qo2"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_onugf"]
+shader = ExtResource("4_onugf")
+shader_parameter/blur_amount = 2.5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_onugf"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n3utc"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lfyfd"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1hwf3"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k0mh3"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ub3og"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q5qo2"]
+bg_color = Color(0.8826347, 0.87452763, 0.8853383, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 5
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8g4fc"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lnfox"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[node name="GoBoard" type="Node2D" unique_id=2034981899]
+position = Vector2(563, 91)
+script = ExtResource("1_hwyoe")
+
+[node name="ColorRect3" type="ColorRect" parent="." unique_id=1746259716]
+custom_minimum_size = Vector2(1920, 0)
+offset_left = -563.0
+offset_top = -89.0
+offset_right = 1357.0
+offset_bottom = -39.0
+color = Color(0.084151976, 0.21566892, 0.27347594, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1233717342]
+custom_minimum_size = Vector2(1920, 0)
+offset_left = -563.0
+offset_top = -91.0
+offset_right = 1357.0
+offset_bottom = -41.0
+color = Color(0.34117648, 0.63529414, 0.76862746, 1)
+
+[node name="ColorRect" type="TextureRect" parent="." unique_id=1169313106]
+show_behind_parent = true
+custom_minimum_size = Vector2(1920, 1080)
+offset_left = -563.0
+offset_top = -45.0
+offset_right = 1357.0
+offset_bottom = 1035.0
+texture = ExtResource("2_81yf1")
+expand_mode = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=347528943]
+
+[node name="ExitBtn" type="Button" parent="CanvasLayer" unique_id=348171505]
+offset_left = 1754.0
+offset_right = 1920.0
+offset_bottom = 50.0
+theme_override_font_sizes/font_size = 25
+text = "退出对局"
+flat = true
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer" unique_id=1563885429]
+visible = false
+offset_left = 3.0
+offset_top = 56.0
+offset_right = 304.0
+offset_bottom = 102.0
+theme_override_font_sizes/font_size = 24
+text = "请选择卡牌开始游戏"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorRect" type="TextureRect" parent="CanvasLayer" unique_id=1477824712]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1442.0
+offset_top = 94.0
+offset_right = -23.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_kkmjm")
+expand_mode = 1
+
+[node name="ExplanationBox" type="RichTextLabel" parent="CanvasLayer" unique_id=1842931863]
+custom_minimum_size = Vector2(300, 300)
+anchors_preset = -1
+anchor_left = 0.063
+anchor_top = 0.112
+anchor_right = 0.063
+anchor_bottom = 0.112
+offset_left = 1369.04
+offset_top = 24.039993
+offset_right = 1730.04
+offset_bottom = 677.04
+theme_override_colors/default_color = Color(0.0018410678, 0.0018410682, 0.0018410678, 1)
+theme_override_font_sizes/normal_font_size = 18
+bbcode_enabled = true
+text = "选择一张棋手牌，听听他们的战术长考..."
+
+[node name="UtilityBar" type="HBoxContainer" parent="CanvasLayer" unique_id=963766332]
+offset_left = 1058.0
+offset_right = 1765.0
+offset_bottom = 50.0
+theme_override_constants/separation = 10
+
+[node name="ManualBtn" type="CheckButton" parent="CanvasLayer/UtilityBar" unique_id=1737629820]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "自主下棋"
+flat = true
+
+[node name="WinrateBtn" type="CheckButton" parent="CanvasLayer/UtilityBar" unique_id=1867433282]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "胜率
+"
+flat = true
+
+[node name="TerritoryBtn" type="CheckButton" parent="CanvasLayer/UtilityBar" unique_id=2069746330]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "形势判断"
+flat = true
+
+[node name="CardAIBtn" type="CheckButton" parent="CanvasLayer/UtilityBar" unique_id=1670667336]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "AI分析"
+flat = true
+
+[node name="NumOpt" type="OptionButton" parent="CanvasLayer/UtilityBar" unique_id=1636529136]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+
+[node name="PassBtn" type="Button" parent="CanvasLayer/UtilityBar" unique_id=1134987014]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Pass"
+flat = true
+
+[node name="HandUI" type="HBoxContainer" parent="CanvasLayer" unique_id=1442700778]
+custom_minimum_size = Vector2(1500, 200)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 81.0
+offset_top = -98.0
+offset_right = -339.0
+offset_bottom = 102.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 20
+
+[node name="InfoLabel" type="RichTextLabel" parent="CanvasLayer" unique_id=774923574]
+offset_left = 9.0
+offset_top = 8.0
+offset_right = 782.0
+offset_bottom = 57.0
+theme_override_font_sizes/normal_font_size = 20
+
+[node name="SetupMenuMask" type="ColorRect" parent="CanvasLayer" unique_id=712484346]
+material = SubResource("ShaderMaterial_onugf")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 51.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.22352941, 0.22352941, 0.22352941, 0.7607843)
+
+[node name="SetupPanel" type="PanelContainer" parent="CanvasLayer/SetupMenuMask" unique_id=1598033925]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 276.0
+offset_right = 548.0
+offset_bottom = 752.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_onugf")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel" unique_id=2044779485]
+layout_mode = 2
+theme_override_constants/separation = 35
+
+[node name="SetupTabContainer" type="TabContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer" unique_id=301231922]
+layout_mode = 2
+theme_override_colors/drop_mark_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+theme_override_colors/font_selected_color = Color(1, 1, 1, 1)
+theme_override_colors/font_unselected_color = Color(0.5211406, 0.5211406, 0.5211405, 1)
+theme_override_constants/side_margin = 0
+theme_override_font_sizes/font_size = 18
+theme_override_styles/panel = SubResource("StyleBoxFlat_n3utc")
+current_tab = 0
+tab_0/title = "AI对战"
+tab_0/icon = ExtResource("5_lfyfd")
+tab_1/title = "棋手对战"
+tab_1/icon = ExtResource("6_q5qo2")
+
+[node name="AIBattle" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer" unique_id=1677860921]
+layout_mode = 2
+theme_override_constants/separation = 25
+metadata/_tab_index = 0
+metadata/_tab_name = "AI对战"
+
+[node name="BoardSlider" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle" unique_id=431591994]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/BoardSlider" unique_id=1638429665]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "棋盘大小"
+
+[node name="Slider" type="HSlider" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/BoardSlider" unique_id=1675297287]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("7_q5qo2")
+theme_override_icons/grabber_highlight = ExtResource("7_q5qo2")
+theme_override_styles/slider = SubResource("StyleBoxFlat_lfyfd")
+max_value = 2.0
+tick_count = 3
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="DiffSlider" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle" unique_id=1122573191]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/DiffSlider" unique_id=1584935527]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "段位选择"
+
+[node name="Slider" type="HSlider" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/DiffSlider" unique_id=563535137]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("7_q5qo2")
+theme_override_icons/grabber_highlight = ExtResource("7_q5qo2")
+theme_override_styles/slider = SubResource("StyleBoxFlat_1hwf3")
+max_value = 8.0
+tick_count = 9
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="StyleSlider" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle" unique_id=318356071]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/StyleSlider" unique_id=2017970039]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "风格选择"
+
+[node name="Slider" type="HSlider" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/AIBattle/StyleSlider" unique_id=1169793768]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("7_q5qo2")
+theme_override_icons/grabber_highlight = ExtResource("7_q5qo2")
+theme_override_styles/slider = SubResource("StyleBoxFlat_k0mh3")
+max_value = 3.0
+tick_count = 4
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="MasterBattle" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer" unique_id=814436810]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 15
+metadata/_tab_index = 1
+metadata/_tab_name = "棋手对战"
+
+[node name="BoardSliderMaster" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle" unique_id=1560160665]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle/BoardSliderMaster" unique_id=45122657]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "棋盘选择"
+vertical_alignment = 1
+
+[node name="Slider" type="HSlider" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle/BoardSliderMaster" unique_id=541087086]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("7_q5qo2")
+theme_override_icons/grabber_highlight = ExtResource("7_q5qo2")
+theme_override_styles/slider = SubResource("StyleBoxFlat_ub3og")
+max_value = 2.0
+tick_count = 3
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="OpponentSelector" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle" unique_id=748052288]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle/OpponentSelector" unique_id=1641558016]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "对决对手：待定"
+vertical_alignment = 1
+
+[node name="Scroll" type="ScrollContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle/OpponentSelector" unique_id=619218304]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+theme_override_constants/scrollbar_h_separation = 5
+theme_override_constants/scrollbar_v_separation = 5
+theme_override_styles/panel = SubResource("StyleBoxFlat_q5qo2")
+
+[node name="OpponentList" type="GridContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/SetupTabContainer/MasterBattle/OpponentSelector/Scroll" unique_id=209590177]
+layout_mode = 2
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 5
+columns = 4
+
+[node name="ColorSlider" type="VBoxContainer" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer" unique_id=1802370874]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="Label" type="Label" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/ColorSlider" unique_id=1655930347]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 21
+text = "执子选择：执黑 (先手)"
+
+[node name="Slider" type="HSlider" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer/ColorSlider" unique_id=1239347674]
+layout_mode = 2
+theme_override_icons/grabber = ExtResource("7_q5qo2")
+theme_override_icons/grabber_highlight = ExtResource("7_q5qo2")
+theme_override_styles/slider = SubResource("StyleBoxFlat_8g4fc")
+max_value = 1.0
+tick_count = 2
+ticks_on_borders = true
+ticks_position = 3
+
+[node name="StartGameBtn" type="Button" parent="CanvasLayer/SetupMenuMask/SetupPanel/VBoxContainer" unique_id=1566935444]
+custom_minimum_size = Vector2(0, 55)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_lnfox")
+text = "开始对局"

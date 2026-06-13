@@ -1,0 +1,3119 @@
+2026-06-12 12:23:45+0800: Running with following config:
+allowResignation = true
+analysisOutputOwnership = true
+humanSLProfile = preaz_9d
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-12 12:23:45+0800: GTP Engine starting...
+2026-06-12 12:23:45+0800: KataGo v1.16.5
+2026-06-12 12:23:45+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-12 12:23:45+0800: Using 2 CPU thread(s) for search
+2026-06-12 12:23:45+0800: nnRandSeed0 = 2036757303440525516
+2026-06-12 12:23:45+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-12 12:23:45+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-12 12:23:46+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-12 12:23:46+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:46+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-12 12:23:46+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:46+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-12 12:23:46+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-12 12:23:46+0800: --------------
+2026-06-12 12:23:46+0800: WARNING: Config had unused keys! You may have a typo, an option you specified is being unused from E:/开发/new/围棋/bin/katago.cfg
+2026-06-12 12:23:46+0800: WARNING: Unused key 'analysisOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-12 12:23:46+0800: WARNING: Unused key 'lzAnalyzeOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-12 12:23:46+0800: --------------
+2026-06-12 12:23:46+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-12 12:23:46+0800: Loaded model E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz
+2026-06-12 12:23:46+0800: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:46+0800: GTP ready, beginning main protocol loop
+2026-06-12 12:23:46+0800: Controller: boardsize 9
+2026-06-12 12:23:46+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-12 12:23:46+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-12 12:23:46+0800: Cleaned up old neural net and bot
+2026-06-12 12:23:46+0800: nnRandSeed0 = 9708046153894661729
+2026-06-12 12:23:46+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-12 12:23:46+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-12 12:23:47+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-12 12:23:47+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:47+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-12 12:23:47+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:48+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-12 12:23:48+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-12 12:23:48+0800: = 
+2026-06-12 12:23:48+0800: Controller: komi 7.5
+2026-06-12 12:23:48+0800: = 
+2026-06-12 12:23:48+0800: Controller: clear_board
+2026-06-12 12:23:48+0800: = 
+2026-06-12 12:23:48+0800: Controller: boardsize 19
+2026-06-12 12:23:48+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-12 12:23:48+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-12 12:23:48+0800: Cleaned up old neural net and bot
+2026-06-12 12:23:48+0800: nnRandSeed0 = 6249877224067032181
+2026-06-12 12:23:48+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-12 12:23:48+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-12 12:23:49+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-12 12:23:49+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:49+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-12 12:23:49+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-12 12:23:49+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-12 12:23:49+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: komi 7.5
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: clear_board
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: stop
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:23:49+0800: = 
+2026-06-12 12:23:49+0800: Controller: lz-analyze b 10
+2026-06-12 12:23:49+0800: =
+2026-06-12 12:24:03+0800: Controller: stop
+2026-06-12 12:24:03+0800: = 
+2026-06-12 12:24:11+0800: Controller: stop
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: play black Q4
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:24:11+0800: = 
+2026-06-12 12:24:11+0800: Controller: lz-analyze w 10
+2026-06-12 12:24:11+0800: =
+2026-06-12 12:24:21+0800: Controller: stop
+2026-06-12 12:24:21+0800: = 
+2026-06-12 12:24:21+0800: Controller: stop
+2026-06-12 12:24:21+0800: = 
+2026-06-12 12:24:21+0800: Controller: play white C16
+2026-06-12 12:24:21+0800: = 
+2026-06-12 12:24:37+0800: Controller: stop
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:24:37+0800: = 
+2026-06-12 12:24:37+0800: Controller: lz-analyze b 10
+2026-06-12 12:24:37+0800: =
+2026-06-12 12:24:55+0800: Controller: stop
+2026-06-12 12:24:55+0800: = 
+2026-06-12 12:25:05+0800: Controller: stop
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: play black R16
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:25:05+0800: = 
+2026-06-12 12:25:05+0800: Controller: lz-analyze w 10
+2026-06-12 12:25:05+0800: =
+2026-06-12 12:25:18+0800: Controller: stop
+2026-06-12 12:25:18+0800: = 
+2026-06-12 12:25:18+0800: Controller: stop
+2026-06-12 12:25:18+0800: = 
+2026-06-12 12:25:18+0800: Controller: play white P16
+2026-06-12 12:25:18+0800: = 
+2026-06-12 12:25:24+0800: Controller: stop
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:25:24+0800: = 
+2026-06-12 12:25:24+0800: Controller: lz-analyze b 10
+2026-06-12 12:25:24+0800: =
+2026-06-12 12:25:59+0800: Controller: stop
+2026-06-12 12:25:59+0800: = 
+2026-06-12 12:26:11+0800: Controller: stop
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: play black C4
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:26:11+0800: = 
+2026-06-12 12:26:11+0800: Controller: lz-analyze w 10
+2026-06-12 12:26:11+0800: =
+2026-06-12 12:26:33+0800: Controller: stop
+2026-06-12 12:26:33+0800: = 
+2026-06-12 12:26:33+0800: Controller: stop
+2026-06-12 12:26:33+0800: = 
+2026-06-12 12:26:33+0800: Controller: play white O3
+2026-06-12 12:26:33+0800: = 
+2026-06-12 12:26:36+0800: Controller: stop
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:26:36+0800: = 
+2026-06-12 12:26:36+0800: Controller: lz-analyze b 10
+2026-06-12 12:26:36+0800: =
+2026-06-12 12:26:53+0800: Controller: stop
+2026-06-12 12:26:53+0800: = 
+2026-06-12 12:27:22+0800: Controller: stop
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: play black R6
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:27:22+0800: = 
+2026-06-12 12:27:22+0800: Controller: lz-analyze w 10
+2026-06-12 12:27:22+0800: =
+2026-06-12 12:27:39+0800: Controller: stop
+2026-06-12 12:27:39+0800: = 
+2026-06-12 12:27:39+0800: Controller: stop
+2026-06-12 12:27:39+0800: = 
+2026-06-12 12:27:39+0800: Controller: play white E3
+2026-06-12 12:27:39+0800: = 
+2026-06-12 12:27:45+0800: Controller: stop
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:27:45+0800: = 
+2026-06-12 12:27:45+0800: Controller: lz-analyze b 10
+2026-06-12 12:27:45+0800: =
+2026-06-12 12:28:20+0800: Controller: stop
+2026-06-12 12:28:20+0800: = 
+2026-06-12 12:28:53+0800: Controller: stop
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: play black N17
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:28:53+0800: = 
+2026-06-12 12:28:53+0800: Controller: lz-analyze w 10
+2026-06-12 12:28:53+0800: =
+2026-06-12 12:29:06+0800: Controller: stop
+2026-06-12 12:29:06+0800: = 
+2026-06-12 12:29:06+0800: Controller: stop
+2026-06-12 12:29:06+0800: = 
+2026-06-12 12:29:06+0800: Controller: play white O15
+2026-06-12 12:29:06+0800: = 
+2026-06-12 12:29:13+0800: Controller: stop
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:29:13+0800: = 
+2026-06-12 12:29:13+0800: Controller: lz-analyze b 10
+2026-06-12 12:29:13+0800: =
+2026-06-12 12:29:32+0800: Controller: stop
+2026-06-12 12:29:32+0800: = 
+2026-06-12 12:30:01+0800: Controller: stop
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: play black R13
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:30:01+0800: = 
+2026-06-12 12:30:01+0800: Controller: lz-analyze w 10
+2026-06-12 12:30:01+0800: =
+2026-06-12 12:30:19+0800: Controller: stop
+2026-06-12 12:30:19+0800: = 
+2026-06-12 12:30:19+0800: Controller: stop
+2026-06-12 12:30:19+0800: = 
+2026-06-12 12:30:19+0800: Controller: play white C6
+2026-06-12 12:30:19+0800: = 
+2026-06-12 12:30:42+0800: Controller: stop
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:30:42+0800: = 
+2026-06-12 12:30:42+0800: Controller: lz-analyze b 10
+2026-06-12 12:30:42+0800: =
+2026-06-12 12:30:55+0800: Controller: stop
+2026-06-12 12:30:55+0800: = 
+2026-06-12 12:31:16+0800: Controller: stop
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: play black D5
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:31:16+0800: = 
+2026-06-12 12:31:16+0800: Controller: lz-analyze w 10
+2026-06-12 12:31:16+0800: =
+2026-06-12 12:31:25+0800: Controller: stop
+2026-06-12 12:31:25+0800: = 
+2026-06-12 12:31:25+0800: Controller: stop
+2026-06-12 12:31:25+0800: = 
+2026-06-12 12:31:25+0800: Controller: play white G4
+2026-06-12 12:31:25+0800: = 
+2026-06-12 12:31:43+0800: Controller: stop
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:31:43+0800: = 
+2026-06-12 12:31:43+0800: Controller: lz-analyze b 10
+2026-06-12 12:31:43+0800: =
+2026-06-12 12:32:04+0800: Controller: stop
+2026-06-12 12:32:04+0800: = 
+2026-06-12 12:32:17+0800: Controller: stop
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: play black D3
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:32:17+0800: = 
+2026-06-12 12:32:17+0800: Controller: lz-analyze w 10
+2026-06-12 12:32:17+0800: =
+2026-06-12 12:32:28+0800: Controller: stop
+2026-06-12 12:32:28+0800: = 
+2026-06-12 12:32:28+0800: Controller: stop
+2026-06-12 12:32:28+0800: = 
+2026-06-12 12:32:28+0800: Controller: play white E4
+2026-06-12 12:32:28+0800: = 
+2026-06-12 12:32:59+0800: Controller: stop
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:32:59+0800: = 
+2026-06-12 12:32:59+0800: Controller: lz-analyze b 10
+2026-06-12 12:32:59+0800: =
+2026-06-12 12:33:02+0800: Controller: stop
+2026-06-12 12:33:02+0800: = 
+2026-06-12 12:33:17+0800: Controller: stop
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: play black D6
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:33:17+0800: = 
+2026-06-12 12:33:17+0800: Controller: lz-analyze w 10
+2026-06-12 12:33:17+0800: =
+2026-06-12 12:33:29+0800: Controller: stop
+2026-06-12 12:33:29+0800: = 
+2026-06-12 12:33:29+0800: Controller: stop
+2026-06-12 12:33:29+0800: = 
+2026-06-12 12:33:29+0800: Controller: play white C7
+2026-06-12 12:33:29+0800: = 
+2026-06-12 12:33:33+0800: Controller: stop
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:33:33+0800: = 
+2026-06-12 12:33:33+0800: Controller: lz-analyze b 10
+2026-06-12 12:33:33+0800: =
+2026-06-12 12:33:39+0800: Controller: stop
+2026-06-12 12:33:39+0800: = 
+2026-06-12 12:33:56+0800: Controller: stop
+2026-06-12 12:33:56+0800: = 
+2026-06-12 12:33:56+0800: Controller: play black D2
+2026-06-12 12:33:56+0800: = 
+2026-06-12 12:33:57+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:33:57+0800: = 
+2026-06-12 12:33:57+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:33:57+0800: = 
+2026-06-12 12:33:57+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:33:57+0800: = 
+2026-06-12 12:33:57+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:33:57+0800: = 
+2026-06-12 12:33:57+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:33:57+0800: = 
+2026-06-12 12:33:57+0800: Controller: lz-analyze w 10
+2026-06-12 12:33:57+0800: =
+2026-06-12 12:34:20+0800: Controller: stop
+2026-06-12 12:34:20+0800: = 
+2026-06-12 12:34:20+0800: Controller: stop
+2026-06-12 12:34:20+0800: = 
+2026-06-12 12:34:20+0800: Controller: play white D9
+2026-06-12 12:34:20+0800: = 
+2026-06-12 12:34:22+0800: Controller: stop
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:34:22+0800: = 
+2026-06-12 12:34:22+0800: Controller: lz-analyze b 10
+2026-06-12 12:34:22+0800: =
+2026-06-12 12:34:56+0800: Controller: stop
+2026-06-12 12:34:56+0800: = 
+2026-06-12 12:35:20+0800: Controller: stop
+2026-06-12 12:35:20+0800: = 
+2026-06-12 12:35:20+0800: Controller: play black E16
+2026-06-12 12:35:20+0800: = 
+2026-06-12 12:35:21+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:35:21+0800: = 
+2026-06-12 12:35:21+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:35:21+0800: = 
+2026-06-12 12:35:21+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:35:21+0800: = 
+2026-06-12 12:35:21+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:35:21+0800: = 
+2026-06-12 12:35:21+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:35:21+0800: = 
+2026-06-12 12:35:21+0800: Controller: lz-analyze w 10
+2026-06-12 12:35:21+0800: =
+2026-06-12 12:35:39+0800: Controller: stop
+2026-06-12 12:35:39+0800: = 
+2026-06-12 12:35:39+0800: Controller: stop
+2026-06-12 12:35:39+0800: = 
+2026-06-12 12:35:39+0800: Controller: play white H16
+2026-06-12 12:35:39+0800: = 
+2026-06-12 12:35:41+0800: Controller: stop
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:35:41+0800: = 
+2026-06-12 12:35:41+0800: Controller: lz-analyze b 10
+2026-06-12 12:35:41+0800: =
+2026-06-12 12:35:51+0800: Controller: stop
+2026-06-12 12:35:51+0800: = 
+2026-06-12 12:36:01+0800: Controller: stop
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: play black K17
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:36:01+0800: = 
+2026-06-12 12:36:01+0800: Controller: lz-analyze w 10
+2026-06-12 12:36:01+0800: =
+2026-06-12 12:36:16+0800: Controller: stop
+2026-06-12 12:36:16+0800: = 
+2026-06-12 12:36:16+0800: Controller: stop
+2026-06-12 12:36:16+0800: = 
+2026-06-12 12:36:16+0800: Controller: play white M16
+2026-06-12 12:36:16+0800: = 
+2026-06-12 12:45:41+0800: Controller: stop
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:45:41+0800: = 
+2026-06-12 12:45:41+0800: Controller: lz-analyze b 10
+2026-06-12 12:45:41+0800: =
+2026-06-12 12:45:49+0800: Controller: stop
+2026-06-12 12:45:49+0800: = 
+2026-06-12 12:46:21+0800: Controller: stop
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: play black K15
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:46:21+0800: = 
+2026-06-12 12:46:21+0800: Controller: lz-analyze w 10
+2026-06-12 12:46:21+0800: =
+2026-06-12 12:46:33+0800: Controller: stop
+2026-06-12 12:46:33+0800: = 
+2026-06-12 12:46:33+0800: Controller: stop
+2026-06-12 12:46:33+0800: = 
+2026-06-12 12:46:33+0800: Controller: play white H14
+2026-06-12 12:46:33+0800: = 
+2026-06-12 12:55:34+0800: Controller: stop
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:55:34+0800: = 
+2026-06-12 12:55:34+0800: Controller: lz-analyze b 10
+2026-06-12 12:55:34+0800: =
+2026-06-12 12:55:50+0800: Controller: stop
+2026-06-12 12:55:50+0800: = 
+2026-06-12 12:56:18+0800: Controller: stop
+2026-06-12 12:56:18+0800: = 
+2026-06-12 12:56:18+0800: Controller: play black M17
+2026-06-12 12:56:18+0800: = 
+2026-06-12 12:56:19+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:56:19+0800: = 
+2026-06-12 12:56:19+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:56:19+0800: = 
+2026-06-12 12:56:19+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:56:19+0800: = 
+2026-06-12 12:56:19+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:56:19+0800: = 
+2026-06-12 12:56:19+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:56:19+0800: = 
+2026-06-12 12:56:19+0800: Controller: lz-analyze w 10
+2026-06-12 12:56:19+0800: =
+2026-06-12 12:56:54+0800: Controller: stop
+2026-06-12 12:56:54+0800: = 
+2026-06-12 12:56:54+0800: Controller: stop
+2026-06-12 12:56:54+0800: = 
+2026-06-12 12:56:54+0800: Controller: play white J18
+2026-06-12 12:56:54+0800: = 
+2026-06-12 12:56:58+0800: Controller: stop
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:56:58+0800: = 
+2026-06-12 12:56:58+0800: Controller: lz-analyze b 10
+2026-06-12 12:56:58+0800: =
+2026-06-12 12:57:29+0800: Controller: stop
+2026-06-12 12:57:29+0800: = 
+2026-06-12 12:58:02+0800: Controller: stop
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: play black L16
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:58:02+0800: = 
+2026-06-12 12:58:02+0800: Controller: lz-analyze w 10
+2026-06-12 12:58:02+0800: =
+2026-06-12 12:58:19+0800: Controller: stop
+2026-06-12 12:58:19+0800: = 
+2026-06-12 12:58:19+0800: Controller: stop
+2026-06-12 12:58:19+0800: = 
+2026-06-12 12:58:19+0800: Controller: play white E14
+2026-06-12 12:58:19+0800: = 
+2026-06-12 12:58:38+0800: Controller: stop
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 12:58:38+0800: = 
+2026-06-12 12:58:38+0800: Controller: lz-analyze b 10
+2026-06-12 12:58:38+0800: =
+2026-06-12 12:58:52+0800: Controller: stop
+2026-06-12 12:58:52+0800: = 
+2026-06-12 12:59:10+0800: Controller: stop
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: play black D15
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 12:59:10+0800: = 
+2026-06-12 12:59:10+0800: Controller: lz-analyze w 10
+2026-06-12 12:59:10+0800: =
+2026-06-12 12:59:22+0800: Controller: stop
+2026-06-12 12:59:22+0800: = 
+2026-06-12 12:59:22+0800: Controller: stop
+2026-06-12 12:59:22+0800: = 
+2026-06-12 12:59:22+0800: Controller: play white C13
+2026-06-12 12:59:22+0800: = 
+2026-06-12 13:00:10+0800: Controller: stop
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:00:10+0800: = 
+2026-06-12 13:00:10+0800: Controller: lz-analyze b 10
+2026-06-12 13:00:10+0800: =
+2026-06-12 13:00:17+0800: Controller: stop
+2026-06-12 13:00:17+0800: = 
+2026-06-12 13:00:36+0800: Controller: stop
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: play black C15
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:00:36+0800: = 
+2026-06-12 13:00:36+0800: Controller: lz-analyze w 10
+2026-06-12 13:00:36+0800: =
+2026-06-12 13:00:48+0800: Controller: stop
+2026-06-12 13:00:48+0800: = 
+2026-06-12 13:00:48+0800: Controller: stop
+2026-06-12 13:00:48+0800: = 
+2026-06-12 13:00:48+0800: Controller: play white B15
+2026-06-12 13:00:48+0800: = 
+2026-06-12 13:00:51+0800: Controller: stop
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:00:51+0800: = 
+2026-06-12 13:00:51+0800: Controller: lz-analyze b 10
+2026-06-12 13:00:51+0800: =
+2026-06-12 13:01:00+0800: Controller: stop
+2026-06-12 13:01:00+0800: = 
+2026-06-12 13:01:18+0800: Controller: stop
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: play black B14
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:01:18+0800: = 
+2026-06-12 13:01:18+0800: Controller: lz-analyze w 10
+2026-06-12 13:01:18+0800: =
+2026-06-12 13:01:19+0800: Controller: stop
+2026-06-12 13:01:19+0800: = 
+2026-06-12 13:01:19+0800: Controller: stop
+2026-06-12 13:01:19+0800: = 
+2026-06-12 13:01:19+0800: Controller: play white B16
+2026-06-12 13:01:19+0800: = 
+2026-06-12 13:01:29+0800: Controller: stop
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:01:29+0800: = 
+2026-06-12 13:01:29+0800: Controller: lz-analyze b 10
+2026-06-12 13:01:29+0800: =
+2026-06-12 13:01:32+0800: Controller: stop
+2026-06-12 13:01:32+0800: = 
+2026-06-12 13:01:48+0800: Controller: stop
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: play black D13
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:01:48+0800: = 
+2026-06-12 13:01:48+0800: Controller: lz-analyze w 10
+2026-06-12 13:01:48+0800: =
+2026-06-12 13:02:00+0800: Controller: stop
+2026-06-12 13:02:00+0800: = 
+2026-06-12 13:02:00+0800: Controller: stop
+2026-06-12 13:02:00+0800: = 
+2026-06-12 13:02:00+0800: Controller: play white C14
+2026-06-12 13:02:00+0800: = 
+2026-06-12 13:02:03+0800: Controller: stop
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:02:03+0800: = 
+2026-06-12 13:02:03+0800: Controller: lz-analyze b 10
+2026-06-12 13:02:03+0800: =
+2026-06-12 13:02:09+0800: Controller: stop
+2026-06-12 13:02:09+0800: = 
+2026-06-12 13:05:57+0800: Controller: stop
+2026-06-12 13:05:57+0800: = 
+2026-06-12 13:05:57+0800: Controller: play black D14
+2026-06-12 13:05:57+0800: = 
+2026-06-12 13:05:58+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:05:58+0800: = 
+2026-06-12 13:05:58+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:05:58+0800: = 
+2026-06-12 13:05:58+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:05:58+0800: = 
+2026-06-12 13:05:58+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:05:58+0800: = 
+2026-06-12 13:05:58+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:05:58+0800: = 
+2026-06-12 13:05:58+0800: Controller: lz-analyze w 10
+2026-06-12 13:05:58+0800: =
+2026-06-12 13:06:00+0800: Controller: stop
+2026-06-12 13:06:00+0800: = 
+2026-06-12 13:06:00+0800: Controller: stop
+2026-06-12 13:06:00+0800: = 
+2026-06-12 13:06:00+0800: Controller: play white D12
+2026-06-12 13:06:00+0800: = 
+2026-06-12 13:06:33+0800: Controller: stop
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:06:33+0800: = 
+2026-06-12 13:06:33+0800: Controller: lz-analyze b 10
+2026-06-12 13:06:33+0800: =
+2026-06-12 13:06:42+0800: Controller: stop
+2026-06-12 13:06:42+0800: = 
+2026-06-12 13:07:02+0800: Controller: stop
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: play black E13
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:07:02+0800: = 
+2026-06-12 13:07:02+0800: Controller: lz-analyze w 10
+2026-06-12 13:07:02+0800: =
+2026-06-12 13:07:13+0800: Controller: stop
+2026-06-12 13:07:13+0800: = 
+2026-06-12 13:07:13+0800: Controller: stop
+2026-06-12 13:07:13+0800: = 
+2026-06-12 13:07:13+0800: Controller: play white D11
+2026-06-12 13:07:13+0800: = 
+2026-06-12 13:07:16+0800: Controller: stop
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:07:16+0800: = 
+2026-06-12 13:07:16+0800: Controller: lz-analyze b 10
+2026-06-12 13:07:16+0800: =
+2026-06-12 13:07:33+0800: Controller: stop
+2026-06-12 13:07:33+0800: = 
+2026-06-12 13:08:05+0800: Controller: stop
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: play black G15
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:08:05+0800: = 
+2026-06-12 13:08:05+0800: Controller: lz-analyze w 10
+2026-06-12 13:08:05+0800: =
+2026-06-12 13:08:13+0800: Controller: stop
+2026-06-12 13:08:13+0800: = 
+2026-06-12 13:08:13+0800: Controller: stop
+2026-06-12 13:08:13+0800: = 
+2026-06-12 13:08:13+0800: Controller: play white H15
+2026-06-12 13:08:13+0800: = 
+2026-06-12 13:08:18+0800: Controller: stop
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:08:18+0800: = 
+2026-06-12 13:08:18+0800: Controller: lz-analyze b 10
+2026-06-12 13:08:18+0800: =
+2026-06-12 13:08:23+0800: Controller: stop
+2026-06-12 13:08:23+0800: = 
+2026-06-12 13:09:21+0800: Controller: stop
+2026-06-12 13:09:21+0800: = 
+2026-06-12 13:09:21+0800: Controller: play black G18
+2026-06-12 13:09:21+0800: = 
+2026-06-12 13:09:22+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:09:22+0800: = 
+2026-06-12 13:09:22+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:09:22+0800: = 
+2026-06-12 13:09:22+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:09:22+0800: = 
+2026-06-12 13:09:22+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:09:22+0800: = 
+2026-06-12 13:09:22+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:09:22+0800: = 
+2026-06-12 13:09:22+0800: Controller: lz-analyze w 10
+2026-06-12 13:09:22+0800: =
+2026-06-12 13:09:48+0800: Controller: stop
+2026-06-12 13:09:48+0800: = 
+2026-06-12 13:09:48+0800: Controller: stop
+2026-06-12 13:09:48+0800: = 
+2026-06-12 13:09:48+0800: Controller: play white H12
+2026-06-12 13:09:48+0800: = 
+2026-06-12 13:09:50+0800: Controller: stop
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:09:50+0800: = 
+2026-06-12 13:09:50+0800: Controller: lz-analyze b 10
+2026-06-12 13:09:50+0800: =
+2026-06-12 13:10:08+0800: Controller: stop
+2026-06-12 13:10:08+0800: = 
+2026-06-12 13:11:18+0800: Controller: stop
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: play black O13
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:11:18+0800: = 
+2026-06-12 13:11:18+0800: Controller: lz-analyze w 10
+2026-06-12 13:11:18+0800: =
+2026-06-12 13:11:49+0800: Controller: stop
+2026-06-12 13:11:49+0800: = 
+2026-06-12 13:11:49+0800: Controller: stop
+2026-06-12 13:11:49+0800: = 
+2026-06-12 13:11:49+0800: Controller: play white N13
+2026-06-12 13:11:49+0800: = 
+2026-06-12 13:12:09+0800: Controller: stop
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:12:09+0800: = 
+2026-06-12 13:12:09+0800: Controller: lz-analyze b 10
+2026-06-12 13:12:09+0800: =
+2026-06-12 13:12:25+0800: Controller: stop
+2026-06-12 13:12:25+0800: = 
+2026-06-12 13:12:42+0800: Controller: stop
+2026-06-12 13:12:42+0800: = 
+2026-06-12 13:12:42+0800: Controller: play black O12
+2026-06-12 13:12:42+0800: = 
+2026-06-12 13:12:43+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:12:43+0800: = 
+2026-06-12 13:12:43+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:12:43+0800: = 
+2026-06-12 13:12:43+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:12:43+0800: = 
+2026-06-12 13:12:43+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:12:43+0800: = 
+2026-06-12 13:12:43+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:12:43+0800: = 
+2026-06-12 13:12:43+0800: Controller: lz-analyze w 10
+2026-06-12 13:12:43+0800: =
+2026-06-12 13:13:10+0800: Controller: stop
+2026-06-12 13:13:10+0800: = 
+2026-06-12 13:13:10+0800: Controller: stop
+2026-06-12 13:13:10+0800: = 
+2026-06-12 13:13:10+0800: Controller: play white H18
+2026-06-12 13:13:10+0800: = 
+2026-06-12 13:13:17+0800: Controller: stop
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:13:17+0800: = 
+2026-06-12 13:13:17+0800: Controller: lz-analyze b 10
+2026-06-12 13:13:17+0800: =
+2026-06-12 13:13:31+0800: Controller: stop
+2026-06-12 13:13:31+0800: = 
+2026-06-12 13:13:50+0800: Controller: stop
+2026-06-12 13:13:50+0800: = 
+2026-06-12 13:13:50+0800: Controller: play black G17
+2026-06-12 13:13:50+0800: = 
+2026-06-12 13:13:51+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:13:51+0800: = 
+2026-06-12 13:13:51+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:13:51+0800: = 
+2026-06-12 13:13:51+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:13:51+0800: = 
+2026-06-12 13:13:51+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:13:51+0800: = 
+2026-06-12 13:13:51+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:13:51+0800: = 
+2026-06-12 13:13:51+0800: Controller: lz-analyze w 10
+2026-06-12 13:13:51+0800: =
+2026-06-12 13:13:56+0800: Controller: stop
+2026-06-12 13:13:56+0800: = 
+2026-06-12 13:13:56+0800: Controller: stop
+2026-06-12 13:13:56+0800: = 
+2026-06-12 13:13:56+0800: Controller: play white J16
+2026-06-12 13:13:56+0800: = 
+2026-06-12 13:14:04+0800: Controller: stop
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:14:04+0800: = 
+2026-06-12 13:14:04+0800: Controller: lz-analyze b 10
+2026-06-12 13:14:04+0800: =
+2026-06-12 13:14:13+0800: Controller: stop
+2026-06-12 13:14:13+0800: = 
+2026-06-12 13:14:52+0800: Controller: stop
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: play black N15
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:14:52+0800: = 
+2026-06-12 13:14:52+0800: Controller: lz-analyze w 10
+2026-06-12 13:14:52+0800: =
+2026-06-12 13:15:09+0800: Controller: stop
+2026-06-12 13:15:09+0800: = 
+2026-06-12 13:15:09+0800: Controller: stop
+2026-06-12 13:15:09+0800: = 
+2026-06-12 13:15:09+0800: Controller: play white D17
+2026-06-12 13:15:09+0800: = 
+2026-06-12 13:15:45+0800: Controller: stop
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:15:45+0800: = 
+2026-06-12 13:15:45+0800: Controller: lz-analyze b 10
+2026-06-12 13:15:45+0800: =
+2026-06-12 13:16:04+0800: Controller: stop
+2026-06-12 13:16:04+0800: = 
+2026-06-12 13:16:16+0800: Controller: stop
+2026-06-12 13:16:16+0800: = 
+2026-06-12 13:16:16+0800: Controller: play black F11
+2026-06-12 13:16:16+0800: = 
+2026-06-12 13:16:17+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:16:17+0800: = 
+2026-06-12 13:16:17+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:16:17+0800: = 
+2026-06-12 13:16:17+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:16:17+0800: = 
+2026-06-12 13:16:17+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:16:17+0800: = 
+2026-06-12 13:16:17+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:16:17+0800: = 
+2026-06-12 13:16:17+0800: Controller: lz-analyze w 10
+2026-06-12 13:16:17+0800: =
+2026-06-12 13:16:31+0800: Controller: stop
+2026-06-12 13:16:31+0800: = 
+2026-06-12 13:16:31+0800: Controller: stop
+2026-06-12 13:16:31+0800: = 
+2026-06-12 13:16:31+0800: Controller: play white G16
+2026-06-12 13:16:31+0800: = 
+2026-06-12 13:16:39+0800: Controller: stop
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:16:39+0800: = 
+2026-06-12 13:16:39+0800: Controller: lz-analyze b 10
+2026-06-12 13:16:39+0800: =
+2026-06-12 13:16:54+0800: Controller: stop
+2026-06-12 13:16:54+0800: = 
+2026-06-12 13:17:20+0800: Controller: stop
+2026-06-12 13:17:20+0800: = 
+2026-06-12 13:17:20+0800: Controller: play black G10
+2026-06-12 13:17:20+0800: = 
+2026-06-12 13:17:21+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:17:21+0800: = 
+2026-06-12 13:17:21+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:17:21+0800: = 
+2026-06-12 13:17:21+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:17:21+0800: = 
+2026-06-12 13:17:21+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:17:21+0800: = 
+2026-06-12 13:17:21+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:17:21+0800: = 
+2026-06-12 13:17:21+0800: Controller: lz-analyze w 10
+2026-06-12 13:17:21+0800: =
+2026-06-12 13:17:42+0800: Controller: stop
+2026-06-12 13:17:42+0800: = 
+2026-06-12 13:17:42+0800: Controller: stop
+2026-06-12 13:17:42+0800: = 
+2026-06-12 13:17:42+0800: Controller: play white L14
+2026-06-12 13:17:42+0800: = 
+2026-06-12 13:17:45+0800: Controller: stop
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:17:45+0800: = 
+2026-06-12 13:17:45+0800: Controller: lz-analyze b 10
+2026-06-12 13:17:45+0800: =
+2026-06-12 13:18:08+0800: Controller: stop
+2026-06-12 13:18:08+0800: = 
+2026-06-12 13:18:35+0800: Controller: stop
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: play black K14
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:18:35+0800: = 
+2026-06-12 13:18:35+0800: Controller: lz-analyze w 10
+2026-06-12 13:18:35+0800: =
+2026-06-12 13:18:54+0800: Controller: stop
+2026-06-12 13:18:54+0800: = 
+2026-06-12 13:18:54+0800: Controller: stop
+2026-06-12 13:18:54+0800: = 
+2026-06-12 13:18:54+0800: Controller: play white K13
+2026-06-12 13:18:54+0800: = 
+2026-06-12 13:18:58+0800: Controller: stop
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:18:58+0800: = 
+2026-06-12 13:18:58+0800: Controller: lz-analyze b 10
+2026-06-12 13:18:58+0800: =
+2026-06-12 13:19:15+0800: Controller: stop
+2026-06-12 13:19:15+0800: = 
+2026-06-12 13:19:44+0800: Controller: stop
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: play black N14
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:19:44+0800: = 
+2026-06-12 13:19:44+0800: Controller: lz-analyze w 10
+2026-06-12 13:19:44+0800: =
+2026-06-12 13:20:12+0800: Controller: stop
+2026-06-12 13:20:12+0800: = 
+2026-06-12 13:20:12+0800: Controller: stop
+2026-06-12 13:20:12+0800: = 
+2026-06-12 13:20:12+0800: Controller: play white L13
+2026-06-12 13:20:12+0800: = 
+2026-06-12 13:20:52+0800: Controller: stop
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:20:52+0800: = 
+2026-06-12 13:20:52+0800: Controller: lz-analyze b 10
+2026-06-12 13:20:52+0800: =
+2026-06-12 13:21:10+0800: Controller: stop
+2026-06-12 13:21:10+0800: = 
+2026-06-12 13:21:21+0800: Controller: stop
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: play black E17
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:21:21+0800: = 
+2026-06-12 13:21:21+0800: Controller: lz-analyze w 10
+2026-06-12 13:21:21+0800: =
+2026-06-12 13:21:34+0800: Controller: stop
+2026-06-12 13:21:34+0800: = 
+2026-06-12 13:21:34+0800: Controller: stop
+2026-06-12 13:21:34+0800: = 
+2026-06-12 13:21:34+0800: Controller: play white L15
+2026-06-12 13:21:34+0800: = 
+2026-06-12 13:22:07+0800: Controller: stop
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:22:07+0800: = 
+2026-06-12 13:22:07+0800: Controller: lz-analyze b 10
+2026-06-12 13:22:07+0800: =
+2026-06-12 13:22:14+0800: Controller: stop
+2026-06-12 13:22:14+0800: = 
+2026-06-12 13:22:22+0800: Controller: stop
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: play black N16
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:22:22+0800: = 
+2026-06-12 13:22:22+0800: Controller: lz-analyze w 10
+2026-06-12 13:22:22+0800: =
+2026-06-12 13:23:09+0800: Controller: stop
+2026-06-12 13:23:09+0800: = 
+2026-06-12 13:23:09+0800: Controller: stop
+2026-06-12 13:23:09+0800: = 
+2026-06-12 13:23:09+0800: Controller: play white F6
+2026-06-12 13:23:09+0800: = 
+2026-06-12 13:23:33+0800: Controller: stop
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:23:33+0800: = 
+2026-06-12 13:23:33+0800: Controller: lz-analyze b 10
+2026-06-12 13:23:33+0800: =
+2026-06-12 13:23:50+0800: Controller: stop
+2026-06-12 13:23:50+0800: = 
+2026-06-12 13:24:27+0800: Controller: stop
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: play black G13
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:24:27+0800: = 
+2026-06-12 13:24:27+0800: Controller: lz-analyze w 10
+2026-06-12 13:24:27+0800: =
+2026-06-12 13:24:52+0800: Controller: stop
+2026-06-12 13:24:52+0800: = 
+2026-06-12 13:24:52+0800: Controller: stop
+2026-06-12 13:24:52+0800: = 
+2026-06-12 13:24:52+0800: Controller: play white B4
+2026-06-12 13:24:52+0800: = 
+2026-06-12 13:25:26+0800: Controller: stop
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:25:26+0800: = 
+2026-06-12 13:25:26+0800: Controller: lz-analyze b 10
+2026-06-12 13:25:26+0800: =
+2026-06-12 13:25:42+0800: Controller: stop
+2026-06-12 13:25:42+0800: = 
+2026-06-12 13:28:26+0800: Controller: stop
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: play black B3
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:28:26+0800: = 
+2026-06-12 13:28:26+0800: Controller: lz-analyze w 10
+2026-06-12 13:28:26+0800: =
+2026-06-12 13:28:32+0800: Controller: stop
+2026-06-12 13:28:32+0800: = 
+2026-06-12 13:28:32+0800: Controller: stop
+2026-06-12 13:28:32+0800: = 
+2026-06-12 13:28:32+0800: Controller: play white B5
+2026-06-12 13:28:32+0800: = 
+2026-06-12 13:28:44+0800: Controller: stop
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:28:44+0800: = 
+2026-06-12 13:28:44+0800: Controller: lz-analyze b 10
+2026-06-12 13:28:44+0800: =
+2026-06-12 13:28:49+0800: Controller: stop
+2026-06-12 13:28:49+0800: = 
+2026-06-12 13:29:01+0800: Controller: stop
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: play black E2
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:29:01+0800: = 
+2026-06-12 13:29:01+0800: Controller: lz-analyze w 10
+2026-06-12 13:29:01+0800: =
+2026-06-12 13:29:05+0800: Controller: stop
+2026-06-12 13:29:05+0800: = 
+2026-06-12 13:29:05+0800: Controller: stop
+2026-06-12 13:29:05+0800: = 
+2026-06-12 13:29:05+0800: Controller: play white F2
+2026-06-12 13:29:05+0800: = 
+2026-06-12 13:29:08+0800: Controller: stop
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:29:08+0800: = 
+2026-06-12 13:29:08+0800: Controller: lz-analyze b 10
+2026-06-12 13:29:08+0800: =
+2026-06-12 13:29:21+0800: Controller: stop
+2026-06-12 13:29:21+0800: = 
+2026-06-12 13:29:32+0800: Controller: stop
+2026-06-12 13:29:32+0800: = 
+2026-06-12 13:29:32+0800: Controller: play black K16
+2026-06-12 13:29:32+0800: = 
+2026-06-12 13:29:33+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:29:33+0800: = 
+2026-06-12 13:29:33+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:29:33+0800: = 
+2026-06-12 13:29:33+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:29:33+0800: = 
+2026-06-12 13:29:33+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:29:33+0800: = 
+2026-06-12 13:29:33+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:29:33+0800: = 
+2026-06-12 13:29:33+0800: Controller: lz-analyze w 10
+2026-06-12 13:29:33+0800: =
+2026-06-12 13:29:40+0800: Controller: stop
+2026-06-12 13:29:40+0800: = 
+2026-06-12 13:29:40+0800: Controller: stop
+2026-06-12 13:29:40+0800: = 
+2026-06-12 13:29:40+0800: Controller: play white G14
+2026-06-12 13:29:40+0800: = 
+2026-06-12 13:29:45+0800: Controller: stop
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:29:45+0800: = 
+2026-06-12 13:29:45+0800: Controller: lz-analyze b 10
+2026-06-12 13:29:45+0800: =
+2026-06-12 13:30:02+0800: Controller: stop
+2026-06-12 13:30:02+0800: = 
+2026-06-12 13:30:44+0800: Controller: stop
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: play black F8
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:30:44+0800: = 
+2026-06-12 13:30:44+0800: Controller: lz-analyze w 10
+2026-06-12 13:30:44+0800: =
+2026-06-12 13:31:02+0800: Controller: stop
+2026-06-12 13:31:02+0800: = 
+2026-06-12 13:31:02+0800: Controller: stop
+2026-06-12 13:31:02+0800: = 
+2026-06-12 13:31:02+0800: Controller: play white F13
+2026-06-12 13:31:02+0800: = 
+2026-06-12 13:31:11+0800: Controller: stop
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:31:11+0800: = 
+2026-06-12 13:31:11+0800: Controller: lz-analyze b 10
+2026-06-12 13:31:11+0800: =
+2026-06-12 13:31:25+0800: Controller: stop
+2026-06-12 13:31:25+0800: = 
+2026-06-12 13:31:35+0800: Controller: stop
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: play black F12
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:31:35+0800: = 
+2026-06-12 13:31:35+0800: Controller: lz-analyze w 10
+2026-06-12 13:31:35+0800: =
+2026-06-12 13:31:38+0800: Controller: stop
+2026-06-12 13:31:38+0800: = 
+2026-06-12 13:31:38+0800: Controller: stop
+2026-06-12 13:31:38+0800: = 
+2026-06-12 13:31:38+0800: Controller: play white F14
+2026-06-12 13:31:38+0800: = 
+2026-06-12 13:31:39+0800: Controller: stop
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:31:39+0800: = 
+2026-06-12 13:31:39+0800: Controller: lz-analyze b 10
+2026-06-12 13:31:39+0800: =
+2026-06-12 13:31:41+0800: Controller: stop
+2026-06-12 13:31:41+0800: = 
+2026-06-12 13:31:54+0800: Controller: stop
+2026-06-12 13:31:54+0800: = 
+2026-06-12 13:31:54+0800: Controller: play black E12
+2026-06-12 13:31:54+0800: = 
+2026-06-12 13:31:55+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:31:55+0800: = 
+2026-06-12 13:31:55+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:31:55+0800: = 
+2026-06-12 13:31:55+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:31:55+0800: = 
+2026-06-12 13:31:55+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:31:55+0800: = 
+2026-06-12 13:31:55+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:31:55+0800: = 
+2026-06-12 13:31:55+0800: Controller: lz-analyze w 10
+2026-06-12 13:31:55+0800: =
+2026-06-12 13:32:04+0800: Controller: stop
+2026-06-12 13:32:04+0800: = 
+2026-06-12 13:32:04+0800: Controller: stop
+2026-06-12 13:32:04+0800: = 
+2026-06-12 13:32:04+0800: Controller: play white D7
+2026-06-12 13:32:04+0800: = 
+2026-06-12 13:32:07+0800: Controller: stop
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:32:07+0800: = 
+2026-06-12 13:32:07+0800: Controller: lz-analyze b 10
+2026-06-12 13:32:07+0800: =
+2026-06-12 13:32:20+0800: Controller: stop
+2026-06-12 13:32:20+0800: = 
+2026-06-12 13:32:28+0800: Controller: stop
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: play black H13
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:32:28+0800: = 
+2026-06-12 13:32:28+0800: Controller: lz-analyze w 10
+2026-06-12 13:32:28+0800: =
+2026-06-12 13:32:35+0800: Controller: stop
+2026-06-12 13:32:35+0800: = 
+2026-06-12 13:32:35+0800: Controller: stop
+2026-06-12 13:32:35+0800: = 
+2026-06-12 13:32:35+0800: Controller: play white G12
+2026-06-12 13:32:35+0800: = 
+2026-06-12 13:32:39+0800: Controller: stop
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:32:39+0800: = 
+2026-06-12 13:32:39+0800: Controller: lz-analyze b 10
+2026-06-12 13:32:39+0800: =
+2026-06-12 13:32:52+0800: Controller: stop
+2026-06-12 13:32:52+0800: = 
+2026-06-12 13:33:22+0800: Controller: stop
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: play black G2
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:33:22+0800: = 
+2026-06-12 13:33:22+0800: Controller: lz-analyze w 10
+2026-06-12 13:33:22+0800: =
+2026-06-12 13:33:31+0800: Controller: stop
+2026-06-12 13:33:31+0800: = 
+2026-06-12 13:33:31+0800: Controller: stop
+2026-06-12 13:33:31+0800: = 
+2026-06-12 13:33:31+0800: Controller: play white F3
+2026-06-12 13:33:31+0800: = 
+2026-06-12 13:33:45+0800: Controller: stop
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:33:45+0800: = 
+2026-06-12 13:33:45+0800: Controller: lz-analyze b 10
+2026-06-12 13:33:45+0800: =
+2026-06-12 13:34:21+0800: Controller: stop
+2026-06-12 13:34:21+0800: = 
+2026-06-12 13:34:39+0800: Controller: stop
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: play black J3
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:34:39+0800: = 
+2026-06-12 13:34:39+0800: Controller: lz-analyze w 10
+2026-06-12 13:34:39+0800: =
+2026-06-12 13:34:58+0800: Controller: stop
+2026-06-12 13:34:58+0800: = 
+2026-06-12 13:34:58+0800: Controller: stop
+2026-06-12 13:34:58+0800: = 
+2026-06-12 13:34:58+0800: Controller: play white J11
+2026-06-12 13:34:58+0800: = 
+2026-06-12 13:34:59+0800: Controller: stop
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:34:59+0800: = 
+2026-06-12 13:34:59+0800: Controller: lz-analyze b 10
+2026-06-12 13:34:59+0800: =
+2026-06-12 13:35:19+0800: Controller: stop
+2026-06-12 13:35:19+0800: = 
+2026-06-12 13:35:29+0800: Controller: stop
+2026-06-12 13:35:29+0800: = 
+2026-06-12 13:35:29+0800: Controller: play black J10
+2026-06-12 13:35:29+0800: = 
+2026-06-12 13:35:30+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:35:30+0800: = 
+2026-06-12 13:35:30+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:35:30+0800: = 
+2026-06-12 13:35:30+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:35:30+0800: = 
+2026-06-12 13:35:30+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:35:30+0800: = 
+2026-06-12 13:35:30+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:35:30+0800: = 
+2026-06-12 13:35:30+0800: Controller: lz-analyze w 10
+2026-06-12 13:35:30+0800: =
+2026-06-12 13:35:48+0800: Controller: stop
+2026-06-12 13:35:48+0800: = 
+2026-06-12 13:35:48+0800: Controller: stop
+2026-06-12 13:35:48+0800: = 
+2026-06-12 13:35:48+0800: Controller: play white E1
+2026-06-12 13:35:48+0800: = 
+2026-06-12 13:35:50+0800: Controller: stop
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:35:50+0800: = 
+2026-06-12 13:35:50+0800: Controller: lz-analyze b 10
+2026-06-12 13:35:50+0800: =
+2026-06-12 13:36:05+0800: Controller: stop
+2026-06-12 13:36:05+0800: = 
+2026-06-12 13:36:12+0800: Controller: stop
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: play black D1
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:36:12+0800: = 
+2026-06-12 13:36:12+0800: Controller: lz-analyze w 10
+2026-06-12 13:36:12+0800: =
+2026-06-12 13:36:22+0800: Controller: stop
+2026-06-12 13:36:22+0800: = 
+2026-06-12 13:36:22+0800: Controller: stop
+2026-06-12 13:36:22+0800: = 
+2026-06-12 13:36:22+0800: Controller: play white H2
+2026-06-12 13:36:22+0800: = 
+2026-06-12 13:36:30+0800: Controller: stop
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:36:30+0800: = 
+2026-06-12 13:36:30+0800: Controller: lz-analyze b 10
+2026-06-12 13:36:30+0800: =
+2026-06-12 13:36:45+0800: Controller: stop
+2026-06-12 13:36:45+0800: = 
+2026-06-12 13:37:20+0800: Controller: stop
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: play black B1
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:37:20+0800: = 
+2026-06-12 13:37:20+0800: Controller: lz-analyze w 10
+2026-06-12 13:37:20+0800: =
+2026-06-12 13:37:30+0800: Controller: stop
+2026-06-12 13:37:30+0800: = 
+2026-06-12 13:37:30+0800: Controller: stop
+2026-06-12 13:37:30+0800: = 
+2026-06-12 13:37:30+0800: Controller: play white L3
+2026-06-12 13:37:30+0800: = 
+2026-06-12 13:37:33+0800: Controller: stop
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:37:33+0800: = 
+2026-06-12 13:37:33+0800: Controller: lz-analyze b 10
+2026-06-12 13:37:33+0800: =
+2026-06-12 13:37:57+0800: Controller: stop
+2026-06-12 13:37:57+0800: = 
+2026-06-12 13:38:04+0800: Controller: stop
+2026-06-12 13:38:04+0800: = 
+2026-06-12 13:38:04+0800: Controller: play black D10
+2026-06-12 13:38:04+0800: = 
+2026-06-12 13:38:05+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:38:05+0800: = 
+2026-06-12 13:38:05+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:38:05+0800: = 
+2026-06-12 13:38:05+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:38:05+0800: = 
+2026-06-12 13:38:05+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:38:05+0800: = 
+2026-06-12 13:38:05+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:38:05+0800: = 
+2026-06-12 13:38:05+0800: Controller: lz-analyze w 10
+2026-06-12 13:38:05+0800: =
+2026-06-12 13:38:16+0800: Controller: stop
+2026-06-12 13:38:16+0800: = 
+2026-06-12 13:38:16+0800: Controller: stop
+2026-06-12 13:38:16+0800: = 
+2026-06-12 13:38:16+0800: Controller: play white C10
+2026-06-12 13:38:16+0800: = 
+2026-06-12 13:38:19+0800: Controller: stop
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:38:19+0800: = 
+2026-06-12 13:38:19+0800: Controller: lz-analyze b 10
+2026-06-12 13:38:19+0800: =
+2026-06-12 13:38:26+0800: Controller: stop
+2026-06-12 13:38:26+0800: = 
+2026-06-12 13:39:23+0800: Controller: stop
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: play black K10
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:39:23+0800: = 
+2026-06-12 13:39:23+0800: Controller: lz-analyze w 10
+2026-06-12 13:39:23+0800: =
+2026-06-12 13:39:43+0800: Controller: stop
+2026-06-12 13:39:43+0800: = 
+2026-06-12 13:39:43+0800: Controller: stop
+2026-06-12 13:39:43+0800: = 
+2026-06-12 13:39:43+0800: Controller: play white Q7
+2026-06-12 13:39:43+0800: = 
+2026-06-12 13:39:52+0800: Controller: stop
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:39:52+0800: = 
+2026-06-12 13:39:52+0800: Controller: lz-analyze b 10
+2026-06-12 13:39:52+0800: =
+2026-06-12 13:40:09+0800: Controller: stop
+2026-06-12 13:40:09+0800: = 
+2026-06-12 13:40:23+0800: Controller: stop
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: play black E10
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:40:23+0800: = 
+2026-06-12 13:40:23+0800: Controller: lz-analyze w 10
+2026-06-12 13:40:23+0800: =
+2026-06-12 13:40:34+0800: Controller: stop
+2026-06-12 13:40:34+0800: = 
+2026-06-12 13:40:34+0800: Controller: stop
+2026-06-12 13:40:34+0800: = 
+2026-06-12 13:40:34+0800: Controller: play white C12
+2026-06-12 13:40:34+0800: = 
+2026-06-12 13:40:54+0800: Controller: stop
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:40:54+0800: = 
+2026-06-12 13:40:54+0800: Controller: lz-analyze b 10
+2026-06-12 13:40:54+0800: =
+2026-06-12 13:41:11+0800: Controller: stop
+2026-06-12 13:41:11+0800: = 
+2026-06-12 13:41:37+0800: Controller: stop
+2026-06-12 13:41:37+0800: = 
+2026-06-12 13:41:37+0800: Controller: play black O4
+2026-06-12 13:41:37+0800: = 
+2026-06-12 13:41:38+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:41:38+0800: = 
+2026-06-12 13:41:38+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:41:38+0800: = 
+2026-06-12 13:41:38+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:41:38+0800: = 
+2026-06-12 13:41:38+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:41:38+0800: = 
+2026-06-12 13:41:38+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:41:38+0800: = 
+2026-06-12 13:41:38+0800: Controller: lz-analyze w 10
+2026-06-12 13:41:38+0800: =
+2026-06-12 13:41:44+0800: Controller: stop
+2026-06-12 13:41:44+0800: = 
+2026-06-12 13:41:44+0800: Controller: stop
+2026-06-12 13:41:44+0800: = 
+2026-06-12 13:41:44+0800: Controller: play white N4
+2026-06-12 13:41:44+0800: = 
+2026-06-12 13:41:50+0800: Controller: stop
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:41:50+0800: = 
+2026-06-12 13:41:50+0800: Controller: lz-analyze b 10
+2026-06-12 13:41:50+0800: =
+2026-06-12 13:41:57+0800: Controller: stop
+2026-06-12 13:41:57+0800: = 
+2026-06-12 13:42:11+0800: Controller: stop
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: play black O5
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:42:11+0800: = 
+2026-06-12 13:42:11+0800: Controller: lz-analyze w 10
+2026-06-12 13:42:11+0800: =
+2026-06-12 13:42:28+0800: Controller: stop
+2026-06-12 13:42:28+0800: = 
+2026-06-12 13:42:28+0800: Controller: stop
+2026-06-12 13:42:28+0800: = 
+2026-06-12 13:42:28+0800: Controller: play white R12
+2026-06-12 13:42:28+0800: = 
+2026-06-12 13:42:33+0800: Controller: stop
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:42:33+0800: = 
+2026-06-12 13:42:33+0800: Controller: lz-analyze b 10
+2026-06-12 13:42:33+0800: =
+2026-06-12 13:42:51+0800: Controller: stop
+2026-06-12 13:42:51+0800: = 
+2026-06-12 13:43:15+0800: Controller: stop
+2026-06-12 13:43:15+0800: = 
+2026-06-12 13:43:15+0800: Controller: play black Q12
+2026-06-12 13:43:15+0800: = 
+2026-06-12 13:43:16+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:43:16+0800: = 
+2026-06-12 13:43:16+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:43:16+0800: = 
+2026-06-12 13:43:16+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:43:16+0800: = 
+2026-06-12 13:43:16+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:43:16+0800: = 
+2026-06-12 13:43:16+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:43:16+0800: = 
+2026-06-12 13:43:16+0800: Controller: lz-analyze w 10
+2026-06-12 13:43:16+0800: =
+2026-06-12 13:43:24+0800: Controller: stop
+2026-06-12 13:43:24+0800: = 
+2026-06-12 13:43:24+0800: Controller: stop
+2026-06-12 13:43:24+0800: = 
+2026-06-12 13:43:24+0800: Controller: play white R7
+2026-06-12 13:43:24+0800: = 
+2026-06-12 13:43:47+0800: Controller: stop
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:43:47+0800: = 
+2026-06-12 13:43:47+0800: Controller: lz-analyze b 10
+2026-06-12 13:43:47+0800: =
+2026-06-12 13:44:02+0800: Controller: stop
+2026-06-12 13:44:02+0800: = 
+2026-06-12 13:44:44+0800: Controller: stop
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: play black R11
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:44:44+0800: = 
+2026-06-12 13:44:44+0800: Controller: lz-analyze w 10
+2026-06-12 13:44:44+0800: =
+2026-06-12 13:44:58+0800: Controller: stop
+2026-06-12 13:44:58+0800: = 
+2026-06-12 13:44:58+0800: Controller: stop
+2026-06-12 13:44:58+0800: = 
+2026-06-12 13:44:58+0800: Controller: play white P3
+2026-06-12 13:44:58+0800: = 
+2026-06-12 13:45:00+0800: Controller: stop
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:45:00+0800: = 
+2026-06-12 13:45:00+0800: Controller: lz-analyze b 10
+2026-06-12 13:45:00+0800: =
+2026-06-12 13:45:11+0800: Controller: stop
+2026-06-12 13:45:11+0800: = 
+2026-06-12 13:45:32+0800: Controller: stop
+2026-06-12 13:45:32+0800: = 
+2026-06-12 13:45:32+0800: Controller: play black S6
+2026-06-12 13:45:32+0800: = 
+2026-06-12 13:45:33+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:45:33+0800: = 
+2026-06-12 13:45:33+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:45:33+0800: = 
+2026-06-12 13:45:33+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:45:33+0800: = 
+2026-06-12 13:45:33+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:45:33+0800: = 
+2026-06-12 13:45:33+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:45:33+0800: = 
+2026-06-12 13:45:33+0800: Controller: lz-analyze w 10
+2026-06-12 13:45:33+0800: =
+2026-06-12 13:45:59+0800: Controller: stop
+2026-06-12 13:45:59+0800: = 
+2026-06-12 13:45:59+0800: Controller: stop
+2026-06-12 13:45:59+0800: = 
+2026-06-12 13:45:59+0800: Controller: play white M10
+2026-06-12 13:45:59+0800: = 
+2026-06-12 13:46:02+0800: Controller: stop
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:46:02+0800: = 
+2026-06-12 13:46:02+0800: Controller: lz-analyze b 10
+2026-06-12 13:46:02+0800: =
+2026-06-12 13:46:17+0800: Controller: stop
+2026-06-12 13:46:17+0800: = 
+2026-06-12 13:46:29+0800: Controller: stop
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: play black N5
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:46:29+0800: = 
+2026-06-12 13:46:29+0800: Controller: lz-analyze w 10
+2026-06-12 13:46:29+0800: =
+2026-06-12 13:46:58+0800: Controller: stop
+2026-06-12 13:46:58+0800: = 
+2026-06-12 13:46:58+0800: Controller: stop
+2026-06-12 13:46:58+0800: = 
+2026-06-12 13:46:58+0800: Controller: play white M8
+2026-06-12 13:46:58+0800: = 
+2026-06-12 13:47:14+0800: Controller: stop
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:47:14+0800: = 
+2026-06-12 13:47:14+0800: Controller: lz-analyze b 10
+2026-06-12 13:47:14+0800: =
+2026-06-12 13:47:52+0800: Controller: stop
+2026-06-12 13:47:52+0800: = 
+2026-06-12 13:48:06+0800: Controller: stop
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: play black J7
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:48:06+0800: = 
+2026-06-12 13:48:06+0800: Controller: lz-analyze w 10
+2026-06-12 13:48:06+0800: =
+2026-06-12 13:48:25+0800: Controller: stop
+2026-06-12 13:48:25+0800: = 
+2026-06-12 13:48:25+0800: Controller: stop
+2026-06-12 13:48:25+0800: = 
+2026-06-12 13:48:25+0800: Controller: play white Q3
+2026-06-12 13:48:25+0800: = 
+2026-06-12 13:48:31+0800: Controller: stop
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:48:31+0800: = 
+2026-06-12 13:48:31+0800: Controller: lz-analyze b 10
+2026-06-12 13:48:31+0800: =
+2026-06-12 13:48:42+0800: Controller: stop
+2026-06-12 13:48:42+0800: = 
+2026-06-12 13:49:02+0800: Controller: stop
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: play black M4
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:49:02+0800: = 
+2026-06-12 13:49:02+0800: Controller: lz-analyze w 10
+2026-06-12 13:49:02+0800: =
+2026-06-12 13:49:19+0800: Controller: stop
+2026-06-12 13:49:19+0800: = 
+2026-06-12 13:49:19+0800: Controller: stop
+2026-06-12 13:49:19+0800: = 
+2026-06-12 13:49:19+0800: Controller: play white O7
+2026-06-12 13:49:19+0800: = 
+2026-06-12 13:49:20+0800: Controller: stop
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:49:20+0800: = 
+2026-06-12 13:49:20+0800: Controller: lz-analyze b 10
+2026-06-12 13:49:20+0800: =
+2026-06-12 13:49:38+0800: Controller: stop
+2026-06-12 13:49:38+0800: = 
+2026-06-12 13:49:55+0800: Controller: stop
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: play black R3
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:49:55+0800: = 
+2026-06-12 13:49:55+0800: Controller: lz-analyze w 10
+2026-06-12 13:49:55+0800: =
+2026-06-12 13:50:04+0800: Controller: stop
+2026-06-12 13:50:04+0800: = 
+2026-06-12 13:50:04+0800: Controller: stop
+2026-06-12 13:50:04+0800: = 
+2026-06-12 13:50:04+0800: Controller: play white N3
+2026-06-12 13:50:04+0800: = 
+2026-06-12 13:50:07+0800: Controller: stop
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:50:07+0800: = 
+2026-06-12 13:50:07+0800: Controller: lz-analyze b 10
+2026-06-12 13:50:07+0800: =
+2026-06-12 13:50:19+0800: Controller: stop
+2026-06-12 13:50:19+0800: = 
+2026-06-12 13:50:31+0800: Controller: stop
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: play black P8
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:50:31+0800: = 
+2026-06-12 13:50:31+0800: Controller: lz-analyze w 10
+2026-06-12 13:50:31+0800: =
+2026-06-12 13:50:42+0800: Controller: stop
+2026-06-12 13:50:42+0800: = 
+2026-06-12 13:50:42+0800: Controller: stop
+2026-06-12 13:50:42+0800: = 
+2026-06-12 13:50:42+0800: Controller: play white O8
+2026-06-12 13:50:42+0800: = 
+2026-06-12 13:50:45+0800: Controller: stop
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:50:45+0800: = 
+2026-06-12 13:50:45+0800: Controller: lz-analyze b 10
+2026-06-12 13:50:45+0800: =
+2026-06-12 13:51:18+0800: Controller: stop
+2026-06-12 13:51:18+0800: = 
+2026-06-12 13:51:28+0800: Controller: stop
+2026-06-12 13:51:28+0800: = 
+2026-06-12 13:51:28+0800: Controller: play black P7
+2026-06-12 13:51:28+0800: = 
+2026-06-12 13:51:29+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:51:29+0800: = 
+2026-06-12 13:51:29+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:51:29+0800: = 
+2026-06-12 13:51:29+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:51:29+0800: = 
+2026-06-12 13:51:29+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:51:29+0800: = 
+2026-06-12 13:51:29+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:51:29+0800: = 
+2026-06-12 13:51:29+0800: Controller: lz-analyze w 10
+2026-06-12 13:51:29+0800: =
+2026-06-12 13:51:38+0800: Controller: stop
+2026-06-12 13:51:38+0800: = 
+2026-06-12 13:51:38+0800: Controller: stop
+2026-06-12 13:51:38+0800: = 
+2026-06-12 13:51:38+0800: Controller: play white P9
+2026-06-12 13:51:38+0800: = 
+2026-06-12 13:51:40+0800: Controller: stop
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:51:40+0800: = 
+2026-06-12 13:51:40+0800: Controller: lz-analyze b 10
+2026-06-12 13:51:40+0800: =
+2026-06-12 13:51:49+0800: Controller: stop
+2026-06-12 13:51:49+0800: = 
+2026-06-12 13:51:56+0800: Controller: stop
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: play black P6
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:51:56+0800: = 
+2026-06-12 13:51:56+0800: Controller: lz-analyze w 10
+2026-06-12 13:51:56+0800: =
+2026-06-12 13:52:02+0800: Controller: stop
+2026-06-12 13:52:02+0800: = 
+2026-06-12 13:52:02+0800: Controller: stop
+2026-06-12 13:52:02+0800: = 
+2026-06-12 13:52:02+0800: Controller: play white Q9
+2026-06-12 13:52:02+0800: = 
+2026-06-12 13:52:04+0800: Controller: stop
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:52:04+0800: = 
+2026-06-12 13:52:04+0800: Controller: lz-analyze b 10
+2026-06-12 13:52:04+0800: =
+2026-06-12 13:52:10+0800: Controller: stop
+2026-06-12 13:52:10+0800: = 
+2026-06-12 13:52:40+0800: Controller: stop
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: play black R2
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:52:40+0800: = 
+2026-06-12 13:52:40+0800: Controller: lz-analyze w 10
+2026-06-12 13:52:40+0800: =
+2026-06-12 13:53:10+0800: Controller: stop
+2026-06-12 13:53:10+0800: = 
+2026-06-12 13:53:10+0800: Controller: stop
+2026-06-12 13:53:10+0800: = 
+2026-06-12 13:53:10+0800: Controller: play white K4
+2026-06-12 13:53:10+0800: = 
+2026-06-12 13:53:22+0800: Controller: stop
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:53:22+0800: = 
+2026-06-12 13:53:22+0800: Controller: lz-analyze b 10
+2026-06-12 13:53:22+0800: =
+2026-06-12 13:53:54+0800: Controller: stop
+2026-06-12 13:53:54+0800: = 
+2026-06-12 13:54:13+0800: Controller: stop
+2026-06-12 13:54:13+0800: = 
+2026-06-12 13:54:13+0800: Controller: play black L5
+2026-06-12 13:54:13+0800: = 
+2026-06-12 13:54:14+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:54:14+0800: = 
+2026-06-12 13:54:14+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:54:14+0800: = 
+2026-06-12 13:54:14+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:54:14+0800: = 
+2026-06-12 13:54:14+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:54:14+0800: = 
+2026-06-12 13:54:14+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:54:14+0800: = 
+2026-06-12 13:54:14+0800: Controller: lz-analyze w 10
+2026-06-12 13:54:14+0800: =
+2026-06-12 13:55:00+0800: Controller: stop
+2026-06-12 13:55:00+0800: = 
+2026-06-12 13:55:00+0800: Controller: stop
+2026-06-12 13:55:00+0800: = 
+2026-06-12 13:55:00+0800: Controller: play white S12
+2026-06-12 13:55:00+0800: = 
+2026-06-12 13:55:11+0800: Controller: stop
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:55:11+0800: = 
+2026-06-12 13:55:11+0800: Controller: lz-analyze b 10
+2026-06-12 13:55:11+0800: =
+2026-06-12 13:55:26+0800: Controller: stop
+2026-06-12 13:55:26+0800: = 
+2026-06-12 13:56:19+0800: Controller: stop
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: play black S11
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:56:19+0800: = 
+2026-06-12 13:56:19+0800: Controller: lz-analyze w 10
+2026-06-12 13:56:19+0800: =
+2026-06-12 13:56:40+0800: Controller: stop
+2026-06-12 13:56:40+0800: = 
+2026-06-12 13:56:40+0800: Controller: stop
+2026-06-12 13:56:40+0800: = 
+2026-06-12 13:56:40+0800: Controller: play white S13
+2026-06-12 13:56:40+0800: = 
+2026-06-12 13:56:49+0800: Controller: stop
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:56:49+0800: = 
+2026-06-12 13:56:49+0800: Controller: lz-analyze b 10
+2026-06-12 13:56:49+0800: =
+2026-06-12 13:56:59+0800: Controller: stop
+2026-06-12 13:56:59+0800: = 
+2026-06-12 13:57:19+0800: Controller: stop
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: play black R14
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:57:19+0800: = 
+2026-06-12 13:57:19+0800: Controller: lz-analyze w 10
+2026-06-12 13:57:19+0800: =
+2026-06-12 13:57:28+0800: Controller: stop
+2026-06-12 13:57:28+0800: = 
+2026-06-12 13:57:28+0800: Controller: stop
+2026-06-12 13:57:28+0800: = 
+2026-06-12 13:57:28+0800: Controller: play white Q11
+2026-06-12 13:57:28+0800: = 
+2026-06-12 13:57:35+0800: Controller: stop
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:57:35+0800: = 
+2026-06-12 13:57:35+0800: Controller: lz-analyze b 10
+2026-06-12 13:57:35+0800: =
+2026-06-12 13:57:43+0800: Controller: stop
+2026-06-12 13:57:43+0800: = 
+2026-06-12 13:58:16+0800: Controller: stop
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: play black P11
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:58:16+0800: = 
+2026-06-12 13:58:16+0800: Controller: lz-analyze w 10
+2026-06-12 13:58:16+0800: =
+2026-06-12 13:58:19+0800: Controller: stop
+2026-06-12 13:58:19+0800: = 
+2026-06-12 13:58:19+0800: Controller: stop
+2026-06-12 13:58:19+0800: = 
+2026-06-12 13:58:19+0800: Controller: play white Q10
+2026-06-12 13:58:19+0800: = 
+2026-06-12 13:58:34+0800: Controller: stop
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:58:34+0800: = 
+2026-06-12 13:58:34+0800: Controller: lz-analyze b 10
+2026-06-12 13:58:34+0800: =
+2026-06-12 13:58:42+0800: Controller: stop
+2026-06-12 13:58:42+0800: = 
+2026-06-12 13:58:56+0800: Controller: stop
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: play black S14
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 13:58:56+0800: = 
+2026-06-12 13:58:56+0800: Controller: lz-analyze w 10
+2026-06-12 13:58:56+0800: =
+2026-06-12 13:59:20+0800: Controller: stop
+2026-06-12 13:59:20+0800: = 
+2026-06-12 13:59:20+0800: Controller: stop
+2026-06-12 13:59:20+0800: = 
+2026-06-12 13:59:20+0800: Controller: play white J5
+2026-06-12 13:59:20+0800: = 
+2026-06-12 13:59:41+0800: Controller: stop
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 13:59:41+0800: = 
+2026-06-12 13:59:41+0800: Controller: lz-analyze b 10
+2026-06-12 13:59:41+0800: =
+2026-06-12 14:00:58+0800: Controller: stop
+2026-06-12 14:00:58+0800: = 
+2026-06-12 14:02:55+0800: Controller: stop
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: play black L7
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:02:55+0800: = 
+2026-06-12 14:02:55+0800: Controller: lz-analyze w 10
+2026-06-12 14:02:55+0800: =
+2026-06-12 14:03:10+0800: Controller: stop
+2026-06-12 14:03:10+0800: = 
+2026-06-12 14:03:10+0800: Controller: stop
+2026-06-12 14:03:10+0800: = 
+2026-06-12 14:03:10+0800: Controller: play white F1
+2026-06-12 14:03:10+0800: = 
+2026-06-12 14:03:15+0800: Controller: stop
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:03:15+0800: = 
+2026-06-12 14:03:15+0800: Controller: lz-analyze b 10
+2026-06-12 14:03:15+0800: =
+2026-06-12 14:03:45+0800: Controller: stop
+2026-06-12 14:03:45+0800: = 
+2026-06-12 14:04:00+0800: Controller: stop
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: play black N10
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:04:00+0800: = 
+2026-06-12 14:04:00+0800: Controller: lz-analyze w 10
+2026-06-12 14:04:00+0800: =
+2026-06-12 14:04:10+0800: Controller: stop
+2026-06-12 14:04:10+0800: = 
+2026-06-12 14:04:10+0800: Controller: stop
+2026-06-12 14:04:10+0800: = 
+2026-06-12 14:04:10+0800: Controller: play white O10
+2026-06-12 14:04:10+0800: = 
+2026-06-12 14:04:15+0800: Controller: stop
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:04:15+0800: = 
+2026-06-12 14:04:15+0800: Controller: lz-analyze b 10
+2026-06-12 14:04:15+0800: =
+2026-06-12 14:04:25+0800: Controller: stop
+2026-06-12 14:04:25+0800: = 
+2026-06-12 14:04:33+0800: Controller: stop
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: play black N11
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:04:33+0800: = 
+2026-06-12 14:04:33+0800: Controller: lz-analyze w 10
+2026-06-12 14:04:33+0800: =
+2026-06-12 14:04:40+0800: Controller: stop
+2026-06-12 14:04:40+0800: = 
+2026-06-12 14:04:40+0800: Controller: stop
+2026-06-12 14:04:40+0800: = 
+2026-06-12 14:04:40+0800: Controller: play white S10
+2026-06-12 14:04:40+0800: = 
+2026-06-12 14:04:53+0800: Controller: stop
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:04:53+0800: = 
+2026-06-12 14:04:53+0800: Controller: lz-analyze b 10
+2026-06-12 14:04:53+0800: =
+2026-06-12 14:05:01+0800: Controller: stop
+2026-06-12 14:05:01+0800: = 
+2026-06-12 14:05:13+0800: Controller: stop
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: play black T12
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:05:13+0800: = 
+2026-06-12 14:05:13+0800: Controller: lz-analyze w 10
+2026-06-12 14:05:13+0800: =
+2026-06-12 14:05:20+0800: Controller: stop
+2026-06-12 14:05:20+0800: = 
+2026-06-12 14:05:20+0800: Controller: stop
+2026-06-12 14:05:20+0800: = 
+2026-06-12 14:05:20+0800: Controller: play white R10
+2026-06-12 14:05:20+0800: = 
+2026-06-12 14:05:25+0800: Controller: stop
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:05:25+0800: = 
+2026-06-12 14:05:25+0800: Controller: lz-analyze b 10
+2026-06-12 14:05:25+0800: =
+2026-06-12 14:05:30+0800: Controller: stop
+2026-06-12 14:05:30+0800: = 
+2026-06-12 14:06:11+0800: Controller: stop
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: play black T13
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:06:11+0800: = 
+2026-06-12 14:06:11+0800: Controller: lz-analyze w 10
+2026-06-12 14:06:11+0800: =
+2026-06-12 14:06:15+0800: Controller: stop
+2026-06-12 14:06:15+0800: = 
+2026-06-12 14:06:15+0800: Controller: stop
+2026-06-12 14:06:15+0800: = 
+2026-06-12 14:06:15+0800: Controller: play white N9
+2026-06-12 14:06:15+0800: = 
+2026-06-12 14:06:20+0800: Controller: stop
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:06:20+0800: = 
+2026-06-12 14:06:20+0800: Controller: lz-analyze b 10
+2026-06-12 14:06:20+0800: =
+2026-06-12 14:06:31+0800: Controller: stop
+2026-06-12 14:06:31+0800: = 
+2026-06-12 14:06:47+0800: Controller: stop
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: play black L11
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:06:47+0800: = 
+2026-06-12 14:06:47+0800: Controller: lz-analyze w 10
+2026-06-12 14:06:47+0800: =
+2026-06-12 14:07:08+0800: Controller: stop
+2026-06-12 14:07:08+0800: = 
+2026-06-12 14:07:08+0800: Controller: stop
+2026-06-12 14:07:08+0800: = 
+2026-06-12 14:07:08+0800: Controller: play white L8
+2026-06-12 14:07:08+0800: = 
+2026-06-12 14:07:09+0800: Controller: stop
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:07:09+0800: = 
+2026-06-12 14:07:09+0800: Controller: lz-analyze b 10
+2026-06-12 14:07:09+0800: =
+2026-06-12 14:07:29+0800: Controller: stop
+2026-06-12 14:07:29+0800: = 
+2026-06-12 14:07:40+0800: Controller: stop
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: play black K8
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:07:40+0800: = 
+2026-06-12 14:07:40+0800: Controller: lz-analyze w 10
+2026-06-12 14:07:40+0800: =
+2026-06-12 14:07:57+0800: Controller: stop
+2026-06-12 14:07:57+0800: = 
+2026-06-12 14:07:57+0800: Controller: stop
+2026-06-12 14:07:57+0800: = 
+2026-06-12 14:07:57+0800: Controller: play white L10
+2026-06-12 14:07:57+0800: = 
+2026-06-12 14:08:07+0800: Controller: stop
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:08:07+0800: = 
+2026-06-12 14:08:07+0800: Controller: lz-analyze b 10
+2026-06-12 14:08:07+0800: =
+2026-06-12 14:08:26+0800: Controller: stop
+2026-06-12 14:08:26+0800: = 
+2026-06-12 14:08:41+0800: Controller: stop
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: play black S8
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:08:41+0800: = 
+2026-06-12 14:08:41+0800: Controller: lz-analyze w 10
+2026-06-12 14:08:41+0800: =
+2026-06-12 14:09:01+0800: Controller: stop
+2026-06-12 14:09:01+0800: = 
+2026-06-12 14:09:01+0800: Controller: stop
+2026-06-12 14:09:01+0800: = 
+2026-06-12 14:09:01+0800: Controller: play white S7
+2026-06-12 14:09:01+0800: = 
+2026-06-12 14:09:05+0800: Controller: stop
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:09:05+0800: = 
+2026-06-12 14:09:05+0800: Controller: lz-analyze b 10
+2026-06-12 14:09:05+0800: =
+2026-06-12 14:09:20+0800: Controller: stop
+2026-06-12 14:09:20+0800: = 
+2026-06-12 14:09:58+0800: Controller: stop
+2026-06-12 14:09:58+0800: = 
+2026-06-12 14:09:58+0800: Controller: play black T7
+2026-06-12 14:09:58+0800: = 
+2026-06-12 14:09:59+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:09:59+0800: = 
+2026-06-12 14:09:59+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:09:59+0800: = 
+2026-06-12 14:09:59+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:09:59+0800: = 
+2026-06-12 14:09:59+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:09:59+0800: = 
+2026-06-12 14:09:59+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:09:59+0800: = 
+2026-06-12 14:09:59+0800: Controller: lz-analyze w 10
+2026-06-12 14:09:59+0800: =
+2026-06-12 14:10:12+0800: Controller: stop
+2026-06-12 14:10:12+0800: = 
+2026-06-12 14:10:12+0800: Controller: stop
+2026-06-12 14:10:12+0800: = 
+2026-06-12 14:10:12+0800: Controller: play white R8
+2026-06-12 14:10:12+0800: = 
+2026-06-12 14:10:20+0800: Controller: stop
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:10:20+0800: = 
+2026-06-12 14:10:20+0800: Controller: lz-analyze b 10
+2026-06-12 14:10:20+0800: =
+2026-06-12 14:10:39+0800: Controller: stop
+2026-06-12 14:10:39+0800: = 
+2026-06-12 14:10:49+0800: Controller: stop
+2026-06-12 14:10:49+0800: = 
+2026-06-12 14:10:49+0800: Controller: play black L9
+2026-06-12 14:10:49+0800: = 
+2026-06-12 14:10:50+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:10:50+0800: = 
+2026-06-12 14:10:50+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:10:50+0800: = 
+2026-06-12 14:10:50+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:10:50+0800: = 
+2026-06-12 14:10:50+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:10:50+0800: = 
+2026-06-12 14:10:50+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:10:50+0800: = 
+2026-06-12 14:10:50+0800: Controller: lz-analyze w 10
+2026-06-12 14:10:50+0800: =
+2026-06-12 14:11:03+0800: Controller: stop
+2026-06-12 14:11:03+0800: = 
+2026-06-12 14:11:03+0800: Controller: stop
+2026-06-12 14:11:03+0800: = 
+2026-06-12 14:11:03+0800: Controller: play white M7
+2026-06-12 14:11:03+0800: = 
+2026-06-12 14:11:05+0800: Controller: stop
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:11:05+0800: = 
+2026-06-12 14:11:05+0800: Controller: lz-analyze b 10
+2026-06-12 14:11:05+0800: =
+2026-06-12 14:11:21+0800: Controller: stop
+2026-06-12 14:11:21+0800: = 
+2026-06-12 14:11:33+0800: Controller: stop
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: play black Q8
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:11:33+0800: = 
+2026-06-12 14:11:33+0800: Controller: lz-analyze w 10
+2026-06-12 14:11:33+0800: =
+2026-06-12 14:11:47+0800: Controller: stop
+2026-06-12 14:11:47+0800: = 
+2026-06-12 14:11:47+0800: Controller: stop
+2026-06-12 14:11:47+0800: = 
+2026-06-12 14:11:47+0800: Controller: play white M9
+2026-06-12 14:11:47+0800: = 
+2026-06-12 14:12:14+0800: Controller: stop
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:12:14+0800: = 
+2026-06-12 14:12:14+0800: Controller: lz-analyze b 10
+2026-06-12 14:12:14+0800: =
+2026-06-12 14:12:31+0800: Controller: stop
+2026-06-12 14:12:31+0800: = 
+2026-06-12 14:12:44+0800: Controller: stop
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: play black L6
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: kata-set-param maxPlayouts 20
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: kata-set-param maxVisits 20
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:12:44+0800: = 
+2026-06-12 14:12:44+0800: Controller: lz-analyze w 10
+2026-06-12 14:12:44+0800: =
+2026-06-12 14:13:04+0800: Controller: stop
+2026-06-12 14:13:04+0800: = 
+2026-06-12 14:13:04+0800: Controller: stop
+2026-06-12 14:13:04+0800: = 
+2026-06-12 14:13:05+0800: Controller: stop
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: kata-set-param maxVisits 100
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-12 14:13:05+0800: = 
+2026-06-12 14:13:05+0800: Controller: lz-analyze b 10
+2026-06-12 14:13:05+0800: =
+2026-06-12 14:13:40+0800: Controller: stop
+2026-06-12 14:13:40+0800: = 
+2026-06-12 14:14:07+0800: Controller: stop
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: play black K18
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: kata-set-param maxPlayouts 30
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: kata-set-param maxVisits 30
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: kata-set-param chosenMoveTemperature 0.5
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: kata-set-param humanSLProfile preaz_1d
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: kata-set-param playoutDoublingAdvantage -2.5
+2026-06-12 14:14:07+0800: = 
+2026-06-12 14:14:07+0800: Controller: lz-analyze w 10
+2026-06-12 14:14:07+0800: =
+2026-06-12 14:14:34+0800: Controller: stop
+2026-06-12 14:14:34+0800: = 
+2026-06-12 14:14:34+0800: Controller: stop
+2026-06-12 14:14:34+0800: = 
+2026-06-12 14:14:34+0800: Controller: final_score

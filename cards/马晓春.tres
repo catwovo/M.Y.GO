@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://btxejdnlg6m3a"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_igxlq"]
+
+[resource]
+script = ExtResource("1_igxlq")
+card_name = "马晓春"
+rarity = "UR"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

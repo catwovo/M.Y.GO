@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bthmekvjuc5sk"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_oae8u"]
+
+[resource]
+script = ExtResource("1_oae8u")
+card_name = "过百龄"
+rarity = "UR"
+ai_rank = "preaz_3d"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

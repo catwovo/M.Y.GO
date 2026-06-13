@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://wjsjph2mflgx"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_7hxbv"]
+
+[resource]
+script = ExtResource("1_7hxbv")
+card_name = "战鹰"
+description = "职业二级选手，擅长直播。"
+ai_rank = "preaz_1d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

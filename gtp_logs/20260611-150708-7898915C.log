@@ -1,0 +1,132 @@
+2026-06-11 15:07:08+0800: Running with following config:
+allowResignation = true
+analysisOutputOwnership = true
+humanSLProfile = preaz_9d
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+lzAnalyzeOutputOwnership = true
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-11 15:07:08+0800: GTP Engine starting...
+2026-06-11 15:07:08+0800: KataGo v1.16.5
+2026-06-11 15:07:08+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-11 15:07:08+0800: Using 2 CPU thread(s) for search
+2026-06-11 15:07:08+0800: nnRandSeed0 = 13954308833662932385
+2026-06-11 15:07:08+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-11 15:07:08+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-11 15:07:09+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-11 15:07:09+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-11 15:07:09+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-11 15:07:09+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-11 15:07:10+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-11 15:07:10+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-11 15:07:10+0800: --------------
+2026-06-11 15:07:10+0800: WARNING: Config had unused keys! You may have a typo, an option you specified is being unused from E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:07:10+0800: WARNING: Unused key 'analysisOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:07:10+0800: WARNING: Unused key 'lzAnalyzeOutputOwnership' in E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:07:10+0800: --------------
+2026-06-11 15:07:10+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-11 15:07:10+0800: Loaded model E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz
+2026-06-11 15:07:10+0800: Model name: b18c384nbt-humanv0
+2026-06-11 15:07:10+0800: GTP ready, beginning main protocol loop
+2026-06-11 15:07:10+0800: Controller: boardsize 9
+2026-06-11 15:07:10+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-11 15:07:10+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-11 15:07:10+0800: Cleaned up old neural net and bot
+2026-06-11 15:07:10+0800: nnRandSeed0 = 7251067568754625230
+2026-06-11 15:07:10+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/b18c384nbt-humanv0.bin.gz useFP16 auto useNHWC auto
+2026-06-11 15:07:10+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-11 15:07:11+0800: Eigen (CPU) backend thread 0: Model version 15
+2026-06-11 15:07:11+0800: Eigen (CPU) backend thread 0: Model name: b18c384nbt-humanv0
+2026-06-11 15:07:11+0800: Eigen (CPU) backend thread 1: Model version 15
+2026-06-11 15:07:11+0800: Eigen (CPU) backend thread 1: Model name: b18c384nbt-humanv0
+2026-06-11 15:07:11+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-11 15:07:11+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: komi 7.5
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: clear_board
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: boardsize 9
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: komi 3.5
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: clear_board
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: stop
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: kata-set-param humanSLProfile preaz_9d
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: kata-set-param maxPlayouts 100
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: kata-set-param maxVisits 100
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: kata-set-param chosenMoveTemperature 0.0
+2026-06-11 15:07:11+0800: = 
+2026-06-11 15:07:11+0800: Controller: lz-analyze b 10
+2026-06-11 15:07:11+0800: =
+2026-06-11 15:07:15+0800: Controller: stop
+2026-06-11 15:07:15+0800: = 
+2026-06-11 15:07:19+0800: Controller: stop
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: play black E5
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: kata-set-param maxPlayouts 10
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: kata-set-param maxVisits 10
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: kata-set-param chosenMoveTemperature 1.5
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: kata-set-param humanSLProfile preaz_5k
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: kata-set-param playoutDoublingAdvantage 0.0
+2026-06-11 15:07:19+0800: = 
+2026-06-11 15:07:19+0800: Controller: genmove white
+2026-06-11 15:07:21+0800: MoveNum: 1 HASH: 38E71B648B5DE3A43B414F57C285AD76
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . . X1. . . .
+ 4 . . @ . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi3.5
+Time taken: 1.61
+Root visits: 10
+New playouts: 10
+NN rows: 10
+NN batches: 10
+NN avg batch size: 1
+PV: C4 C6 E3
+Tree:
+: T -10.26c W  -8.56c S  -0.34c ( +0.7 L  +1.0) N      10  --  C4 C6 E3
+---White(^)---
+C4  : T  -8.96c W  -8.14c S  -0.32c ( +0.8 L  +1.1) LCB  -53.71c P  4.31% WF   5.0 PSV       7 N       4  --  C4 C6 E3
+C5  : T -10.22c W  -8.06c S  -0.45c ( +0.7 L  +0.8) LCB  -84.28c P  9.22% WF   4.0 PSV       4 N       3  --  C5 G5 D7
+C3  : T -12.89c W  -9.10c S  -0.79c ( +0.5 L  +0.6) LCB -165.05c P  4.02% WF   3.0 PSV       1 N       2  --  C3 E3
+
+2026-06-11 15:07:21+0800: = C4
+2026-06-11 15:07:21+0800: GPU -1 finishing, processed 20 rows 20 batches
+2026-06-11 15:07:21+0800: GPU -1 finishing, processed 31 rows 28 batches
+2026-06-11 15:07:21+0800: All cleaned up, quitting

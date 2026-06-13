@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bmwuy3bgk1av4"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_jbr0g"]
+
+[resource]
+script = ExtResource("1_jbr0g")
+card_name = "王晨星"
+ai_rank = "preaz_1d"
+ai_style = "aggressive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

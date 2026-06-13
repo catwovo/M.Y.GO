@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bw88jfnqs7i4h"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_s3qme"]
+
+[resource]
+script = ExtResource("1_s3qme")
+card_name = "陈耀烨"
+rarity = "SSR"
+ai_style = "defensive"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

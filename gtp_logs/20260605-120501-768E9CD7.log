@@ -1,0 +1,95 @@
+2026-06-05 12:05:01+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxPlayouts = 100
+maxTimePondering = 60.0
+maxVisits = 100
+numSearchThreads = 2
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2026-06-05 12:05:01+0800: GTP Engine starting...
+2026-06-05 12:05:01+0800: KataGo v1.16.5
+2026-06-05 12:05:01+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2026-06-05 12:05:01+0800: Using 2 CPU thread(s) for search
+2026-06-05 12:05:01+0800: nnRandSeed0 = 435808969771516273
+2026-06-05 12:05:01+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 12:05:01+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2026-06-05 12:05:02+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 12:05:02+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 12:05:02+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 12:05:02+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 12:05:03+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2026-06-05 12:05:03+0800: Initializing board with boardXSize 19 boardYSize 19
+2026-06-05 12:05:03+0800: Loaded config E:/开发/new/围棋/bin/katago.cfg
+2026-06-05 12:05:03+0800: Loaded model E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz
+2026-06-05 12:05:03+0800: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 12:05:03+0800: GTP ready, beginning main protocol loop
+2026-06-05 12:05:03+0800: Controller: boardsize 9
+2026-06-05 12:05:03+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 12:05:03+0800: GPU -1 finishing, processed 0 rows 0 batches
+2026-06-05 12:05:03+0800: Cleaned up old neural net and bot
+2026-06-05 12:05:03+0800: nnRandSeed0 = 5300531901142485783
+2026-06-05 12:05:03+0800: After dedups: nnModelFile0 = E:/开发/new/围棋/bin/kata9x9-b18c384nbt-20231025.bin.gz useFP16 auto useNHWC auto
+2026-06-05 12:05:03+0800: Initializing neural net buffer to be size 9 * 9 exactly
+2026-06-05 12:05:04+0800: Eigen (CPU) backend thread 0: Model version 12
+2026-06-05 12:05:04+0800: Eigen (CPU) backend thread 0: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 12:05:04+0800: Eigen (CPU) backend thread 1: Model version 12
+2026-06-05 12:05:04+0800: Eigen (CPU) backend thread 1: Model name: kata9x9-b18c384nbt-s6603587840-d252232394
+2026-06-05 12:05:05+0800: Loaded neural net with nnXLen 9 nnYLen 9
+2026-06-05 12:05:05+0800: Initializing board with boardXSize 9 boardYSize 9
+2026-06-05 12:05:05+0800: = 
+2026-06-05 12:05:05+0800: Controller: komi 7.5
+2026-06-05 12:05:05+0800: = 
+2026-06-05 12:05:05+0800: Controller: clear_board
+2026-06-05 12:05:05+0800: = 
+2026-06-05 12:05:05+0800: Controller: lz-analyze b 10
+2026-06-05 12:05:05+0800: =
+2026-06-05 12:05:05+0800: Controller: stop
+2026-06-05 12:05:05+0800: = 
+2026-06-05 12:05:09+0800: Controller: play black F5
+2026-06-05 12:05:09+0800: = 
+2026-06-05 12:05:09+0800: Controller: genmove white
+2026-06-05 12:05:18+0800: MoveNum: 1 HASH: B6E678001D5D2B091AC58DA9758153CB
+   A B C D E F G H J
+ 9 . . . . . . . . .
+ 8 . . . . . . . . .
+ 7 . . . . . . . . .
+ 6 . . . . . . . . .
+ 5 . . . @ . X1. . .
+ 4 . . . . . . . . .
+ 3 . . . . . . . . .
+ 2 . . . . . . . . .
+ 1 . . . . . . . . .
+
+koPOSITIONALscoreAREAtaxNONEsui1komi7.5
+Time taken: 9.156
+Root visits: 101
+New playouts: 101
+NN rows: 101
+NN batches: 98
+NN avg batch size: 1.03061
+PV: D5 E7 E3 F3 F2 E4 G3 D4 F4 G4 H4 F3 D7 F4 E6
+Tree:
+: T  78.53c W  78.21c S   0.94c ( +1.5 L  +0.8) N     101  --  D5 E7 E3 F3 F2 E4 G3
+---White(^)---
+D5  : T  79.01c W  78.69c S   0.97c ( +1.5 L  +0.8) LCB   74.85c P 95.51% WF 113.4 PSV     113 N      98  --  D5 E7 E3 F3 F2 E4 G3 D4
+D4  : T  51.75c W  52.15c S  -0.39c ( +0.8 L  +0.0) LCB -298.25c P  0.73% WF   1.3 PSV       0 N       1  --  D4
+F3  : T  51.55c W  52.13c S  -0.58c ( +0.7 L  -0.1) LCB -298.45c P  0.61% WF   1.3 PSV       0 N       1  --  F3
+
+2026-06-05 12:05:18+0800: = D5
+2026-06-05 12:05:20+0800: Controller: lz-analyze b 10
+2026-06-05 12:05:20+0800: =
+2026-06-05 12:05:20+0800: Controller: stop
+2026-06-05 12:05:20+0800: = 

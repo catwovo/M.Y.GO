@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://bkcnpiti3cxb6"]
+
+[ext_resource type="Script" uid="uid://d4a0bstl6p0mw" path="res://CardData.gd" id="1_a6lta"]
+
+[resource]
+script = ExtResource("1_a6lta")
+card_name = "芮迺伟"
+rarity = "SR"
+description = "女子围棋传奇"
+ai_rank = "preaz_3d"
+metadata/_custom_type_script = "uid://d4a0bstl6p0mw"

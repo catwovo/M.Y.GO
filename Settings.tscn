@@ -1,0 +1,213 @@
+[gd_scene format=3 uid="uid://5ob44tsi4m5s"]
+
+[ext_resource type="Script" uid="uid://r4h2b5npr3ya" path="res://settings.gd" id="1_bvb5x"]
+[ext_resource type="Shader" uid="uid://2po700e8pclf" path="res://blur.gdshader" id="2_2fv1l"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mx4kw"]
+shader = ExtResource("2_2fv1l")
+shader_parameter/blur_amount = 2.5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bvb5x"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+expand_margin_left = 15.0
+expand_margin_top = 15.0
+expand_margin_right = 15.0
+expand_margin_bottom = 15.0
+shadow_color = Color(0.07450981, 0.07450981, 0.07450981, 0.85490197)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2fv1l"]
+bg_color = Color(0.8235294, 0.8117647, 0.827451, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mx4kw"]
+bg_color = Color(0.8235294, 0.8117647, 0.827451, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j7x76"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sfvul"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8uskx"]
+bg_color = Color(0.8235294, 0.8117647, 0.827451, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xffxv"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ilhj"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_71mvm"]
+bg_color = Color(0.8235294, 0.8117647, 0.827451, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_10mky"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vm3k5"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_37a8j"]
+bg_color = Color(0.96862745, 0.96862745, 0.9529412, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_blqn1"]
+bg_color = Color(0.73333335, 0.8235294, 0.85882354, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="Settings" type="Control" unique_id=723790585]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bvb5x")
+
+[node name="Mask" type="ColorRect" parent="." unique_id=226447448]
+material = SubResource("ShaderMaterial_mx4kw")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.74509805)
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=769612405]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -221.125
+offset_top = -174.5
+offset_right = 221.125
+offset_bottom = 174.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_bvb5x")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=1309983093]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=727649024]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 30
+text = "HUD_SHEZHI"
+horizontal_alignment = 1
+
+[node name="KeyLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=391360927]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 22
+text = "API KEY："
+
+[node name="ApiKeyInput" type="LineEdit" parent="PanelContainer/VBoxContainer" unique_id=991525713]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_2fv1l")
+
+[node name="ModelLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=760813535]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 22
+text = "HUD_LANG"
+
+[node name="ModelOpt" type="OptionButton" parent="PanelContainer/VBoxContainer" unique_id=271913029]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_mx4kw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j7x76")
+theme_override_styles/hover = SubResource("StyleBoxFlat_sfvul")
+item_count = 2
+popup/item_0/text = "deepseek-chat"
+popup/item_0/id = 0
+popup/item_1/text = "gpt-4o-mini"
+popup/item_1/id = 1
+
+[node name="LocaleLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=712522912]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 22
+text = "HUD_LANG"
+
+[node name="LocaleOpt" type="OptionButton" parent="PanelContainer/VBoxContainer" unique_id=1693478294]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_8uskx")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xffxv")
+theme_override_styles/hover = SubResource("StyleBoxFlat_6ilhj")
+
+[node name="WindowModeLabel" type="Label" parent="PanelContainer/VBoxContainer" unique_id=1187883944]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 22
+text = "HUD_DISP"
+
+[node name="WindowModeOpt" type="OptionButton" parent="PanelContainer/VBoxContainer" unique_id=1097806491]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_71mvm")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_10mky")
+theme_override_styles/hover = SubResource("StyleBoxFlat_vm3k5")
+
+[node name="SaveCloseBtn" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1948412920]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7882353, 0.60784316, 0.57254905, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_37a8j")
+theme_override_styles/hover = SubResource("StyleBoxFlat_blqn1")
+text = "HUD_SAVE"

@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://btxt4ut874jhc"]
+
+[ext_resource type="Script" uid="uid://b6sbuskuatymy" path="res://MainMenu.gd" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://b3mn8y25wjiuq" path="res://sucai/chengshi/1.png" id="2_7vrkn"]
+
+[node name="MainMenu" type="Node2D" unique_id=1202631557]
+script = ExtResource("1_06t4h")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1709713726]
+show_behind_parent = true
+custom_minimum_size = Vector2(1920, 1080)
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_7vrkn")
+expand_mode = 1
+
+[node name="PuzzleDraw" type="Node2D" parent="." unique_id=1662220197]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1080927344]
+
+[node name="TipsLabel" type="Label" parent="CanvasLayer" unique_id=76239397]
+offset_left = 119.0
+offset_top = 288.0
+offset_right = 464.0
+offset_bottom = 394.0
